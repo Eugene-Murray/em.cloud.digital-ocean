@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eugen\\Documents\\Dev\\2019\\digital-ocean\\em.cloud.data.api\\em.cloud.data.api\\em.cloud.data.api.csproj": {}
+    "C:\\Users\\eugen\\Documents\\Dev\\2019\\em.cloud.digital-ocean\\em.cloud.netcore.data.api\\em.cloud.data.api\\em.cloud.data.api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eugen\\Documents\\Dev\\2019\\digital-ocean\\em.cloud.data.api\\em.cloud.data.api\\em.cloud.data.api.csproj": {
+    "C:\\Users\\eugen\\Documents\\Dev\\2019\\em.cloud.digital-ocean\\em.cloud.netcore.data.api\\em.cloud.data.api\\em.cloud.data.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eugen\\Documents\\Dev\\2019\\digital-ocean\\em.cloud.data.api\\em.cloud.data.api\\em.cloud.data.api.csproj",
+        "projectUniqueName": "C:\\Users\\eugen\\Documents\\Dev\\2019\\em.cloud.digital-ocean\\em.cloud.netcore.data.api\\em.cloud.data.api\\em.cloud.data.api.csproj",
         "projectName": "em.cloud.data.api",
-        "projectPath": "C:\\Users\\eugen\\Documents\\Dev\\2019\\digital-ocean\\em.cloud.data.api\\em.cloud.data.api\\em.cloud.data.api.csproj",
+        "projectPath": "C:\\Users\\eugen\\Documents\\Dev\\2019\\em.cloud.digital-ocean\\em.cloud.netcore.data.api\\em.cloud.data.api\\em.cloud.data.api.csproj",
         "packagesPath": "C:\\Users\\eugen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eugen\\Documents\\Dev\\2019\\digital-ocean\\em.cloud.data.api\\em.cloud.data.api\\obj\\",
+        "outputPath": "C:\\Users\\eugen\\Documents\\Dev\\2019\\em.cloud.digital-ocean\\em.cloud.netcore.data.api\\em.cloud.data.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
