@@ -1,9 +1,9 @@
 server {
 
-        root /var/www/emcloud.solutions/html;
-        index index.html index.htm index.nginx-debian.html;
+        root /var/www/emcloud.co/html;
+        index index.html index.htm;
 
-        server_name emcloud.solutions www.emcloud.solutions;
+        server_name emcloud.co www.emcloud.co;
 	
 	add_header Allow "GET, POST, HEAD" always;
 	if ($request_method !~ ^(GET|POST|HEAD)$) {
@@ -12,7 +12,7 @@ server {
 	
 
 location / {
-        proxy_pass http://localhost:3000;
+        proxy_pass http://localhost:5000;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection 'upgrade';
@@ -20,29 +20,33 @@ location / {
         proxy_cache_bypass $http_upgrade;
 }
 
-    listen [::]:443 ssl ipv6only=on; # managed by Certbot
+
+
     listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/emcloud.solutions/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/emcloud.solutions/privkey.pem; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/emcloud.co/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/emcloud.co/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 
 }
 server {
-    if ($host = www.emcloud.solutions) {
+    
+    if ($host = emcloud.co) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+        server_name emcloud.co www.emcloud.co;
+    return 404; # managed by Certbot
+}
+server {
+    if ($host = emcloud.co) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
 
 
-    if ($host = emcloud.solutions) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
 
-
-        listen 80;
-        listen [::]:80;
-
-        server_name emcloud.solutions www.emcloud.solutions;
+        server_name emcloud.co www.emcloud.co;
+    listen 80;
     return 404; # managed by Certbot
 }
