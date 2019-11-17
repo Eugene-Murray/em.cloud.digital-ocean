@@ -1,5 +1,5 @@
 export class CreateAlertDto {
     readonly symbol: string;
-    readonly chart: string;
+    readonly chartTimeFrame: string;
     alertTime: string;
 }

@@ -1,7 +1,9 @@
 import { Document } from 'mongoose';
 
-export interface Alert extends Document {
-    readonly symbol: string;
-    readonly chart: string;
-    alertTime: string;
-}
+import * as mongoose from 'mongoose';
+
+export const AlertSchema = new mongoose.Schema({
+    symbol: String,
+    chartTimeFrame: String,
+    alertTime: String,
+});

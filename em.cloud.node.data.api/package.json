@@ -1,7 +1,7 @@
 {
-  "name": "nest-typescript-starter",
+  "name": "em.cloud.node.data.api",
   "version": "1.0.0",
-  "description": "Nest TypeScript starter repository",
+  "description": "em.cloud.node.data.api",
   "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
