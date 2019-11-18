@@ -7,9 +7,25 @@
 
 	%sapper.base%
 
-	<link rel='stylesheet' href='global.css'>
+	<!-- <link rel='stylesheet' href='global.css'> -->
 	<link rel='manifest' href='manifest.json'>
-	<link rel='icon' type='image/png' href='favicon.png'>
+	<!-- <link rel='icon' type='image/png' href='favicon.png'> -->
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon"  href="images/favicon.ico">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<!-- Font  css  -->
+	<link rel="stylesheet" href="css/assets/font-awesome.min.css">
+	<link rel="stylesheet" href="css/assets/bootstrap.min.css">
+    <link rel="stylesheet" href="css/assets/flaticon.css">	
+    <link rel="stylesheet" href="css/assets/meanmenu.css">
+	<!-- owl carousel -->
+	<link rel="stylesheet" href="css/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/assets/owl.theme.default.min.css">
+	<!-- Main Css -->
+    <link rel="stylesheet" href="css/style.css">	
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/master.css">
 
 	<!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
@@ -19,15 +35,26 @@
 	<!-- This contains the contents of the <svelte:head> component, if
 	     the current page has one -->
 	%sapper.head%
+
+
 </head>
 <body>
 	<!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
-	<div id='sapper'>%sapper.html%</div>
+	<div id='sapper' class="home-version-one_u">%sapper.html%</div>
 
 	<!-- Sapper creates a <script> tag containing `src/client.js`
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
 	%sapper.scripts%
+
+	<!-- JavaScript Files -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>  	
+    <script src="js/jquery.meanmenu.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
