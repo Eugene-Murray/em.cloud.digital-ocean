@@ -1,6 +1,3 @@
-<script>
-	export let segment;
-</script>
 
 <footer class="pt-120">
 	<div class="container">
