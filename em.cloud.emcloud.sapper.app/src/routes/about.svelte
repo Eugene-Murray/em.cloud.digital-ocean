@@ -106,7 +106,7 @@
                 <div class="teacher-body">
                     <div class="teacher_pro">
                         <div class="teachar_img">
-                            <a href="" title=""><img src="images/team/team-01.jpg" alt="" class="img-fluid"></a>
+                            <a href="." title=""><img src="images/team/team-01.jpg" alt="" class="img-fluid"></a>
                         </div>
                         <ul class="list-unstyled teachers_social">
                             <li><a href="."><i class="fa fa-facebook fb-icon"></i></a></li>
@@ -116,7 +116,7 @@
                         </ul>
                     </div>
                     <div class="teachars-info">
-                        <h3><a href="" title="">David Martin</a></h3>
+                        <h3><a href="." title="">David Martin</a></h3>
                         <span>Founder Of Hostcox</span>
                     </div>
                 </div>
@@ -126,7 +126,7 @@
                 <div class="teacher-body">
                     <div class="teacher_pro">
                         <div class="teachar_img">
-                            <a href="" title=""><img src="images/team/team-02.jpg" alt="" class="img-fluid"></a>
+                            <a href="." title=""><img src="images/team/team-02.jpg" alt="" class="img-fluid"></a>
                         </div>
                         <ul class="list-unstyled teachers_social">
                             <li><a href="."><i class="fa fa-facebook fb-icon"></i></a></li>
@@ -136,7 +136,7 @@
                         </ul>
                     </div>
                     <div class="teachars-info">
-                        <h3><a href="" title="">Michael Smith</a></h3>
+                        <h3><a href="." title="">Michael Smith</a></h3>
                         <span>Co-Founder of Hostcox</span>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                 <div class="teacher-body">
                     <div class="teacher_pro">
                         <div class="teachar_img">
-                            <a href="" title=""><img src="images/team/team-04.jpg" alt="" class="img-fluid"></a>
+                            <a href="." title=""><img src="images/team/team-04.jpg" alt="" class="img-fluid"></a>
                         </div>
                         <ul class="list-unstyled teachers_social">
                             <li><a href="."><i class="fa fa-facebook fb-icon"></i></a></li>
@@ -157,7 +157,7 @@
                         </ul>
                     </div>
                     <div class="teachars-info">
-                        <h3><a href="" title="">Willian Kane</a></h3>
+                        <h3><a href="." title="">Willian Kane</a></h3>
                         <span>Head of HostCox</span>
                     </div>
                 </div>
