@@ -11,13 +11,12 @@
 				</div>
 				<div class="col-12 col-md-6 col-lg-3">
 					<div class="footer-link">
-						<h3>Quick Link</h3>
+						<h3>Quick Links</h3>
 						<ul>
-							<li><a href="#">VPS Hosting</a></li>
-							<li><a href="#">Cloud Server</a></li>
-							<li><a href="#">Reseller Hosting</a></li>
-							<li><a href="#">Data Migrations</a></li>
-							<li><a href="#">Didecated Server</a></li>
+							<li><a href="#">SEO</a></li>
+							<li><a href="#">UX Design</a></li>
+							<li><a href="#">Development</a></li>
+							<li><a href="#">Cloud Hosting</a></li>
 						</ul>
 					</div>
 				</div>
@@ -28,8 +27,6 @@
 							<li><a href="#">About</a></li>
 							<li><a href="#">Pricing</a></li>
 							<li><a href="#">Blog</a></li>
-							<li><a href="#">Support</a></li>
-							<li><a href="#">Lagel</a></li>
 							<li><a href="#">Contact</a></li>
 						</ul>
 					</div>
@@ -56,13 +53,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<p>Copyright@getnajmul-2019</p>
+					<p>Copyright@emCLOUD 2019</p>
 				</div>
 				<div class="col-md-6 text-right">
 					<ul>
-						<li><a href="privecy.html">Privacy</a></li>
-                        <li><a href="team-page.html">Team</a></li>
-                        <li><a href="index.html">Sitmap</a></li>                   
+                        <li><a href="sitemap">Sitemap</a></li>                   
 					</ul>
 				</div>
 			</div>
