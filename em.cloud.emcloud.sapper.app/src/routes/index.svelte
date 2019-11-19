@@ -123,7 +123,7 @@
 							<h3><a href="" title="">A Business case story from hosting</a></h3>
 						</div>
 						<div class="blog-btn">
-							<a href="#">Read Now</a>
+							<a href=".">Read Now</a>
 						</div>
 					</div>
 				</div>
@@ -142,7 +142,7 @@
 							<h3><a href="" title="">Hosting domain case study</a></h3>
 						</div>
 						<div class="blog-btn">
-							<a href="#">Read Now</a>
+							<a href=".">Read Now</a>
 						</div>
 					</div>
 				</div>
@@ -161,7 +161,7 @@
 							<h3><a href="" title="">Learner online group for everyone</a></h3>
 						</div>
 						<div class="blog-btn">
-							<a href="#">Read Now</a>
+							<a href=".">Read Now</a>
 						</div>
 					</div>
 				</div>
@@ -179,14 +179,14 @@
 			<div class="col-12  col-md-12">
 				<div class="Feedback-logo  pb-50">
 					<ul>
-						<li class="logo-top"><a href="#"><img src="images/logo_one.png" alt=""></a></li>
-						<li class="logo-top"><a href="#"><img src="images/logo_two.png" alt=""></a></li>
-						<li class="logo-top"><a href="#"><img src="images/logo_three.png" alt=""></a></li>
-						<li class="logo-top"><a href="#"><img src="images/logo_four.png" alt=""></a></li>
-						<li class="logo-bottom"><a href="#"><img src="images/logo_five.jpg" alt=""></a></li>
-						<li class="logo-bottom"><a href="#"><img src="images/logo_six.jpg" alt=""></a></li>
-						<li class="logo-bottom"><a href="#"><img src="images/logo_seven.jpg" alt=""></a></li>
-						<li class="logo-bottom"><a href="#"><img src="images/logo_eight.jpg" alt=""></a></li>			
+						<li class="logo-top"><a href="."><img src="images/logo_one.png" alt=""></a></li>
+						<li class="logo-top"><a href="."><img src="images/logo_two.png" alt=""></a></li>
+						<li class="logo-top"><a href="."><img src="images/logo_three.png" alt=""></a></li>
+						<li class="logo-top"><a href="."><img src="images/logo_four.png" alt=""></a></li>
+						<li class="logo-bottom"><a href="."><img src="images/logo_five.jpg" alt=""></a></li>
+						<li class="logo-bottom"><a href="."><img src="images/logo_six.jpg" alt=""></a></li>
+						<li class="logo-bottom"><a href="."><img src="images/logo_seven.jpg" alt=""></a></li>
+						<li class="logo-bottom"><a href="."><img src="images/logo_eight.jpg" alt=""></a></li>			
 					</ul>
 				</div>
 			</div><!-- End logo section -->

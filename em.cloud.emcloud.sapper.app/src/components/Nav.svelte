@@ -32,9 +32,9 @@
 					<div class="top-area-right text-right">
 						<div class="right-header-top">
 							<!-- <ul>
-								<li><a href="#"><i class="fa fa-commenting-o header-top-icon"></i>live chat</a></li>
-								<li><a href="#"><i class="fa fa-user header-top-icon"></i>login</a></li>
-								<li><a href="#"><i class="fa fa-headphones header-top-icon"></i>support</a></li>
+								<li><a href="."><i class="fa fa-commenting-o header-top-icon"></i>live chat</a></li>
+								<li><a href="."><i class="fa fa-user header-top-icon"></i>login</a></li>
+								<li><a href="."><i class="fa fa-headphones header-top-icon"></i>support</a></li>
 							</ul> -->
 						</div>
 					</div>
@@ -166,7 +166,7 @@
 						<div class="mr-auto sign-in-option btn-demo" data-toggle="modal" data-target="#myModal2">
 			                <ul class="navbar-nav">
 			                    <li>
-			                    	<a href="#"><img src="images/img-part/menu.png" alt=""></a>
+			                    	<a href="."><img src="images/img-part/menu.png" alt=""></a>
 			                    </li>
 			                </ul>
 			            </div>
@@ -176,7 +176,7 @@
 								<div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="flaticon-cancel-music"></i></span></button>
-                                        <h2 class="modal-title" id="myModalLabel2"><a href="#"><img src="images/logo_g.png" alt=""></a><span class="disabled">logo</span></h2>
+                                        <h2 class="modal-title" id="myModalLabel2"><a href="."><img src="images/logo_g.png" alt=""></a><span class="disabled">logo</span></h2>
                                     </div>
                                     <div class="modal-body">
                                         <div class="bar-nav">
@@ -213,10 +213,10 @@
                                                 </form>
                                             </div>
                                             <ul class="social_iocns">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="."><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="."><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="."><i class="fa fa-instagram"></i></a></li>
+                                                <li><a href="."><i class="fa fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -248,7 +248,7 @@
                         <h2>UX Design</h2>
                         <h2>Development </h2>
                         <h2>Cloud Hosting </h2>
-						<!-- <a href="#" class="g-btn">Get Started</a> -->
+						<!-- <a href="." class="g-btn">Get Started</a> -->
 					</div>
 				</div>
 			</div>

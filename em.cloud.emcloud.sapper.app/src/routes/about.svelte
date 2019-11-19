@@ -9,7 +9,7 @@
                 <div class="title">
                     <h2 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">About Us</h2>
                     <p class="wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <a href="#" title="" class="view-more-btn g-btn">Learn More</a>
+                    <a href="." title="" class="view-more-btn g-btn">Learn More</a>
                  </div>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
@@ -109,10 +109,10 @@
                             <a href="" title=""><img src="images/team/team-01.jpg" alt="" class="img-fluid"></a>
                         </div>
                         <ul class="list-unstyled teachers_social">
-                            <li><a href="#"><i class="fa fa-facebook fb-icon"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter twitt-icon"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin link-icon"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram ins-icon"></i></a></li>
+                            <li><a href="."><i class="fa fa-facebook fb-icon"></i></a></li>
+                            <li><a href="."><i class="fa fa-twitter twitt-icon"></i></a></li>
+                            <li><a href="."><i class="fa fa-linkedin link-icon"></i></a></li>
+                            <li><a href="."><i class="fa fa-instagram ins-icon"></i></a></li>
                         </ul>
                     </div>
                     <div class="teachars-info">
@@ -129,10 +129,10 @@
                             <a href="" title=""><img src="images/team/team-02.jpg" alt="" class="img-fluid"></a>
                         </div>
                         <ul class="list-unstyled teachers_social">
-                            <li><a href="#"><i class="fa fa-facebook fb-icon"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter twitt-icon"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin link-icon"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram ins-icon"></i></a></li>
+                            <li><a href="."><i class="fa fa-facebook fb-icon"></i></a></li>
+                            <li><a href="."><i class="fa fa-twitter twitt-icon"></i></a></li>
+                            <li><a href="."><i class="fa fa-linkedin link-icon"></i></a></li>
+                            <li><a href="."><i class="fa fa-instagram ins-icon"></i></a></li>
                         </ul>
                     </div>
                     <div class="teachars-info">
@@ -150,10 +150,10 @@
                             <a href="" title=""><img src="images/team/team-04.jpg" alt="" class="img-fluid"></a>
                         </div>
                         <ul class="list-unstyled teachers_social">
-                            <li><a href="#"><i class="fa fa-facebook fb-icon"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter twitt-icon"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin link-icon"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram ins-icon"></i></a></li>
+                            <li><a href="."><i class="fa fa-facebook fb-icon"></i></a></li>
+                            <li><a href="."><i class="fa fa-twitter twitt-icon"></i></a></li>
+                            <li><a href="."><i class="fa fa-linkedin link-icon"></i></a></li>
+                            <li><a href="."><i class="fa fa-instagram ins-icon"></i></a></li>
                         </ul>
                     </div>
                     <div class="teachars-info">
@@ -165,7 +165,7 @@
 
                                            
             <div class=" col-12 col-md-12 col-lg-12 d-flex justify-content-center">
-                <a href="#" title="" class="view-more-btn g-btn">See More</a>
+                <a href="." title="" class="view-more-btn g-btn">See More</a>
             </div>                 
                                             
         </div>
@@ -180,14 +180,14 @@
                 <h2 class="disabled">Client Logos</h2>
                 <div class="Feedback-logo pt-50">
                     <ul>
-                        <li class="logo-top"><a href="#"><img src="images/logo_one.png" alt=""></a></li>
-                        <li class="logo-top"><a href="#"><img src="images/logo_two.png" alt=""></a></li>
-                        <li class="logo-top"><a href="#"><img src="images/logo_three.png" alt=""></a></li>
-                        <li class="logo-top"><a href="#"><img src="images/logo_four.png" alt=""></a></li>
-                        <li class="logo-bottom"><a href="#"><img src="images/logo_five.jpg" alt=""></a></li>
-                        <li class="logo-bottom"><a href="#"><img src="images/logo_six.jpg" alt=""></a></li>
-                        <li class="logo-bottom"><a href="#"><img src="images/logo_seven.jpg" alt=""></a></li>
-                        <li class="logo-bottom"><a href="#"><img src="images/logo_eight.jpg" alt=""></a></li>          
+                        <li class="logo-top"><a href="."><img src="images/logo_one.png" alt=""></a></li>
+                        <li class="logo-top"><a href="."><img src="images/logo_two.png" alt=""></a></li>
+                        <li class="logo-top"><a href="."><img src="images/logo_three.png" alt=""></a></li>
+                        <li class="logo-top"><a href="."><img src="images/logo_four.png" alt=""></a></li>
+                        <li class="logo-bottom"><a href="."><img src="images/logo_five.jpg" alt=""></a></li>
+                        <li class="logo-bottom"><a href="."><img src="images/logo_six.jpg" alt=""></a></li>
+                        <li class="logo-bottom"><a href="."><img src="images/logo_seven.jpg" alt=""></a></li>
+                        <li class="logo-bottom"><a href="."><img src="images/logo_eight.jpg" alt=""></a></li>          
                     </ul>
                 </div>
             </div>
