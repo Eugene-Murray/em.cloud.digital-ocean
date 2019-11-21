@@ -3,7 +3,7 @@ import { AlertSchema } from './schemas/alert.schema';
 
 export const webHooksProviders = [
   {
-    provide: 'CAT_MODEL',
+    provide: 'WEB_HOOK_MODEL',
     useFactory: (connection: Connection) => connection.model('Alert', AlertSchema),
     inject: ['DATABASE_CONNECTION'],
   },
