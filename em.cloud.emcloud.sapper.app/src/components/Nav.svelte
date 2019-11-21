@@ -20,7 +20,7 @@
 					<div class="top-area-left">
 						<div class="left-header-top">
 							<div class="email">
-								<span class="header-top-icon"><i class="fa fa-envelope-o"></i></span><p>eugene.murray@emcloud.co</p>
+								<span class="header-top-icon"><i class="fa fa-envelope-o"></i></span><p><a href="mailto:info@emcloud.co">info@emcloud.co</a></p>
 							</div>
 						</div>
 						<div class="middle-header-top">
@@ -31,11 +31,11 @@
 					</div>
 					<div class="top-area-right text-right">
 						<div class="right-header-top">
-							<ul>
-								<li><a href="#"><i class="fa fa-commenting-o header-top-icon"></i>live chat</a></li>
-								<li><a href="#"><i class="fa fa-user header-top-icon"></i>login</a></li>
-								<li><a href="#"><i class="fa fa-headphones header-top-icon"></i>support</a></li>
-							</ul>
+							<!-- <ul>
+								<li><a href="."><i class="fa fa-commenting-o header-top-icon"></i>live chat</a></li>
+								<li><a href="."><i class="fa fa-user header-top-icon"></i>login</a></li>
+								<li><a href="."><i class="fa fa-headphones header-top-icon"></i>support</a></li>
+							</ul> -->
 						</div>
 					</div>
 				</div>
@@ -45,7 +45,7 @@
 		<div class="eco_nav">
 			<div class="container">
 	            <nav class="navbar navbar-expand-md navbar-light bg-faded">
-	                <a class="navbar-brand navbar-logo" href="index.html"><img src="images/logo.png" alt=""></a>
+	                <a class="navbar-brand navbar-logo" href="."><img src="images/logo.png" alt=""></a>
                     <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav nav ml-auto">
                             <li class="nav-item single_nav">
@@ -145,61 +145,28 @@
                             <li class="nav-item single_nav">
                                 <a class='{segment === "about" ? "selected" : ""} nav-link nav-menu' href='about'>About</a>
                             </li>
-                            <!-- <li class="nav-item single_nav"><a href="index.html" class="nav-link dropdown_icon nav-menu">Hosting<i class="fa fa-angle-down"></i></a>
-                                <ul class="navbar-nav nav mx-auto">
-                                    <li class="nav-item"><a href="index.html" class="nav-link">Shared Hosting</a></li>
-                                    <li class="nav-item"><a href="index-07-vps.html" class="nav-link">VPS Hosting</a></li>
-                                    <li class="nav-item"><a href="index-05-cloud.html" class="nav-link">Cloud Hosting</a></li>
-                                    <li class="nav-item"><a href="index-09-wp.html" class="nav-link">WordPress Hosting</a></li>
-                                    <li class="nav-item"><a href="index-02.html" class="nav-link">Reseller Hosting</a></li>
-                                    <li class="nav-item"><a href="index-07-vps.html" class="nav-link">Dedicated Server</a></li>
-                                    <li class="nav-item"><a href="https://billing.sylhost.com/cart.php" target="_blank" class="nav-link">WHMCS</a></li>
-                                    <li class="nav-item"><a href="domain-page.html" class="nav-link">Domain Name</a></li>
-                                </ul>
+                            <li class="nav-item single_nav">
+                                <a class='{segment === "services" ? "selected" : ""} nav-link nav-menu' href='services'>Services</a>
                             </li>
-                            <li class="nav-item single_nav"><a href="https://billing.sylhost.com/cart.php" target="_blank" class="nav-link nav-menu">WHMCS</a></li>
-                            <li class="nav-item single_nav"><a href="#" class="nav-link nav-menu">Pages<i class="fa fa-angle-down"></i></a>
-                                <ul class="navbar-nav nav mx-auto">
-                                    <li class="nav-item"><a href="#" class="nav-link dropdown_icon d-right">Home Pages<i class="fa fa-angle-right"></i></a>
-                                        <ul class="navbar-nav nav mx-auto d-two d-width">
-                                            <li class="nav-item"><a href="index.html" class="nav-link">Home 01</a></li>
-                                            <li class="nav-item"><a href="index-02.html" class="nav-link">Home 02</a></li>
-                                            <li class="nav-item"><a href="index-03.html" class="nav-link">Home 03</a></li>
-                                            <li class="nav-item"><a href="index-05-cloud.html" class="nav-link">Home Cloud</a></li>
-                                            <li class="nav-item"><a href="index-08-angle.html" class="nav-link">Home Angle</a></li>                                            
-                                            <li class="nav-item"><a href="index-06-shape.html" class="nav-link">Home Shape</a></li>
-                                            <li class="nav-item"><a href="index-07-vps.html" class="nav-link">Home VPS</a></li>
-                                            <li class="nav-item"><a href="index-09-wp.html" class="nav-link">Home WordPress</a></li>
-                                        </ul>    
-                                    </li>
-                                    <li class="nav-item"><a href="#" class="nav-link dropdown_icon d-right">Blog Page<i class="fa fa-angle-right"></i></a>
-                                        <ul class="navbar-nav nav mx-auto d-two d-width">
-                                            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                                            <li class="nav-item"><a href="blog-details.html" class="nav-link">Blog Details</a></li>
-                                        </ul> 
-                                    </li>
-                                    <li class="nav-item"><a href="privecy.html" class="nav-link">Privacy</a></li> 
-                                    <li class="nav-item"><a href="domain-page.html" class="nav-link">Domain Serch</a></li>
-                                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-                                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-                                    <li class="nav-item"><a href="team-page.html" class="nav-link">Team</a></li>
-                                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                                </ul>                            
-                            </li> 
-                            <li class="nav-item single_nav"><a href="#" class="nav-link nav-menu">Blog<i class="fa fa-angle-down"></i></a>
-                                <ul class="navbar-nav nav mx-auto">
-                                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                                    <li class="nav-item"><a href="blog-details.html" class="nav-link">Blog Details</a></li>
-                                </ul>   
-                            </li>    
-                            <li class="nav-item p-nav"><a href="contact.html" class="nav-link nav-menu">Contact</a></li> -->
+                            <li class="nav-item single_nav">
+                                <a class='{segment === "portfolio" ? "selected" : ""} nav-link nav-menu' href='portfolio'>Portfolio</a>
+                            </li>
+                            <li class="nav-item single_nav">
+                                <a class='{segment === "blog" ? "selected" : ""} nav-link nav-menu' href='blog'>Blog</a>
+                            </li>
+                            <li class="nav-item single_nav">
+                                <a class='{segment === "cool-websites" ? "selected" : ""} nav-link nav-menu' href='cool-websites'>Cool Websites</a>
+                            </li>
+                            <li class="nav-item single_nav">
+                                <a class='{segment === "contact" ? "selected" : ""} nav-link nav-menu' href='contact'>Contact</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="demo">	
 						<div class="mr-auto sign-in-option btn-demo" data-toggle="modal" data-target="#myModal2">
 			                <ul class="navbar-nav">
 			                    <li>
-			                    	<a href="#"><img src="images/img-part/menu.png" alt=""></a>
+			                    	<a href="."><img src="images/img-part/menu.png" alt=""></a>
 			                    </li>
 			                </ul>
 			            </div>
@@ -209,7 +176,7 @@
 								<div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="flaticon-cancel-music"></i></span></button>
-                                        <h2 class="modal-title" id="myModalLabel2"><a href="#"><img src="images/logo_g.png" alt=""></a><span class="disabled">logo</span></h2>
+                                        <h2 class="modal-title" id="myModalLabel2"><a href="."><img src="images/logo_g.png" alt=""></a><span class="disabled">logo</span></h2>
                                     </div>
                                     <div class="modal-body">
                                         <div class="bar-nav">
@@ -246,10 +213,10 @@
                                                 </form>
                                             </div>
                                             <ul class="social_iocns">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="."><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="."><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="."><i class="fa fa-instagram"></i></a></li>
+                                                <li><a href="."><i class="fa fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -277,12 +244,11 @@
 				</div>
 				<div class="col-md-5">
 					<div class="banner-body-content">
-						<h2>UX Design</h2>
-                        <h2>SEO </h2>
+						<h2>SEO </h2>
+                        <h2>UX Design</h2>
                         <h2>Development </h2>
                         <h2>Cloud Hosting </h2>
-						
-						<!-- <a href="#" class="g-btn">Get Started</a> -->
+						<!-- <a href="." class="g-btn">Get Started</a> -->
 					</div>
 				</div>
 			</div>
