@@ -1,4 +1,4 @@
 export class CreateSiteDto {
   readonly name: string;
-  readonly url: number;
+  readonly url: string;
 }
