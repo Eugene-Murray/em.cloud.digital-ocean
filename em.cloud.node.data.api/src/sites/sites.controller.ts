@@ -3,8 +3,8 @@ import { CreateSiteDto } from './dto/create-site.dto';
 import { SitesService } from './sites.service';
 import { Site } from './interfaces/site.interface';
 
-@Controller('api/cats')
-export class CatsController {
+@Controller('api/sites')
+export class SitesController {
   constructor(private readonly sitesService: SitesService) {}
 
   @Post()
