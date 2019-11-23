@@ -29,6 +29,9 @@
 		},
 		{
 			"path": "wrapstrap"
+		},
+		{
+			"path": "em.cloud.eugenemurray.sapper.app"
 		}
 	],
 	"settings": {}
