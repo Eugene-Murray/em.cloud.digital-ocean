@@ -1,0 +1,165 @@
+@@include('header.htm', {
+  "title": "Booking Step 3 - Personal Information - Star Travel",
+  "parents": "hotels",
+  "active": "booking-step-3"
+})
+
+@@include('page-title.htm', {
+  "title": "Booking step 3",
+  "title-border": "title-border",
+  "text": "",
+  "bg-image": "assets/img/pages/page-title-bg7.jpg"
+})
+
+<!-- ====================================
+———	BOOKING SECTION
+===================================== -->
+<section class="py-8 py-md-10">
+  <div class="container">
+    <div class="mb-8">
+      <div class="row progress-wizard">
+        <div class="col-4 progress-wizard-step complete">
+          <div class="progress">
+            <div class="progress-bar"></div>
+          </div>
+      
+          <a href="booking-step-1.html" class="progress-wizard-dot">
+            <div class="progress-wizard-content">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              <span class="d-block">1. Personal info</span>
+            </div>
+          </a>
+        </div>
+      
+        <div class="col-4 progress-wizard-step complete">
+          <div class="progress">
+            <div class="progress-bar"></div>
+          </div>
+      
+          <a href="booking-step-2.html" class="progress-wizard-dot">
+            <div class="progress-wizard-content">
+              <i class="fa fa-usd" aria-hidden="true"></i>
+              <span class="d-block">2. Payment info</span>
+            </div>
+          </a>
+        </div>
+      
+        <div class="col-4 progress-wizard-step active">
+          <div class="progress">
+            <div class="progress-bar"></div>
+          </div>
+      
+          <a href="javascript:void(0)" class="progress-wizard-dot">
+            <div class="progress-wizard-content">
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span class="d-block">3. Confirmation</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="alert alert-success alert-dismissible alert-confirm fade show mb-7" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">Dismiss</span>
+      </button>
+      <i class="fa fa-check" aria-hidden="true"></i>
+      <span><strong>Thank you!</strong> Your booking is confirmed. Invoice Sent in your email address</span>
+    </div>
+
+    <h2 class="text-capitalize mb-5">Booking details</h2>
+
+    <div class="card mb-6 mb-md-0">
+      <img class="card-img-top rounded" src="assets/img/booking/booking-complete.jpg" alt="Card image cap">
+      <div class="card-body px-6">
+        <h3 class="text-capitalize mb-5">Booking details</h3>
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+        omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+        inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      </div>
+
+      <div class="card-footer bg-transparent">
+        <div class="row">
+          <div class="col-md-4">
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <div class="row">
+                  <div class="col-5 col-md-6 col-lg-5 col-xl-4">
+                    <dt>
+                      <span class="mr-1"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                      <span>From:</span>
+                    </dt>
+                  </div>
+                
+                  <div class="col-7 col-md-6 pl-0">
+                    <span class="text-gray-color">25 Mar, 2019</span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="mb-2">
+                <div class="row">
+                  <div class="col-5 col-md-6 col-lg-5 col-xl-4">
+                    <dt>
+                      <span class="mr-1"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                      <span>To:</span>
+                    </dt>
+                  </div>
+                
+                  <div class="col-7 col-md-6 pl-0">
+                    <span class="text-gray-color">28 Mar, 2019</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="row">
+                  <div class="col-5 col-md-6 col-lg-5 col-xl-4">
+                    <dt>
+                      <span class="mr-1"><i class="fa fa-user" aria-hidden="true"></i></span>
+                      <span>Guests:</span>
+                    </dt>
+                  </div>
+              
+                  <div class="col-7 col-md-6 pl-0">
+                    <span class="text-gray-color">2 Adults, 1 Child</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <div class="row">
+                  <div class="col-5 col-md-6 col-lg-5 col-xl-4">
+                    <dt>
+                      <span class="mr-1"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                      <span>Address:</span>
+                    </dt>
+                  </div>
+            
+                  <div class="col-7 col-md-6 col-lg-7 pl-0 pr-md-0 pr-xl-5">
+                    <span class="text-gray-color">Amanda Rodney Smith, Eiffel Tower, Art Louvre Museum, Paris Road, France.</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h2 class="text-center text-xl-left mb-0">
+              <span>Total:</span>
+              <span class="text-primary font-weight-bold">$6,500</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+@@include('footer.htm')

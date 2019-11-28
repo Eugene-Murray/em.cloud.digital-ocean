@@ -1,0 +1,178 @@
+/** Custom Table **/
+.table-dashboard {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: $smoke;
+  @include media-breakpoint-up(md) {
+    padding: 20px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .table {
+    margin-bottom: 0;
+    border: 1px solid $border-color;
+    border-top: 0;
+    @include media-breakpoint-up(md) {
+      border: none;
+    }
+    th, td {
+      padding: 0;
+      vertical-align: middle;
+      padding: 15px 0;
+      &:first-child {
+        padding-left: 10px;
+        @include media-breakpoint-up(md) {
+          padding-left: 15px;
+        }
+        @include media-breakpoint-up(lg) {
+          padding-right: 20px;
+          padding-left: 20px;
+        }
+        @include media-breakpoint-up(xl) {
+          padding-left: 30px;
+        }
+      }
+      &:last-child {
+        padding-right: 10px;
+      }
+    }
+    h1, h2, h3, h4, h5, h6, p {
+      margin: 0;
+    }
+    tr {
+      background-color: $white;
+    }
+    .badge {
+      width: 55px;
+      height: 58px;
+      color: $white;
+      @include media-breakpoint-up(lg) {
+        margin-right: -1.3pc;
+      }
+      @include media-breakpoint-up(xl) {
+        margin-right: -1.9pc;
+      }
+      span {
+        text-transform: capitalize;
+        top: 50%;
+        position: relative;
+        transform: translateY(-50%)
+      }
+      h1, h3 {
+        font-weight: 600;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      h3 {
+        font-size: 14px;
+      }
+    }
+    .badge,
+    .list-unstyled {
+      display: none;
+      margin-bottom: 0;
+      @include media-breakpoint-up(md) {
+        display: block;
+      }
+    }
+    .list-unstyled {
+      @include media-breakpoint-up(md) {
+        border-left: 1px solid #ddd;
+        margin-left: 15px;
+        padding-left: 15px;
+      }
+      h5, h6 {
+       font-size: 11px;
+       text-transform: uppercase;
+       margin-bottom: 4px;
+      }
+      h5 {
+        color: $primary;
+      }
+     h6 {
+       color: $gray-color;
+       margin-bottom: 10px;
+      }
+    }
+    a {
+      font-size: 12px;
+      color: $dark;
+      font-weight: 400;
+      text-transform: capitalize;
+      transition: all .5s;
+      @include media-breakpoint-up(md) {
+        font-size: 16px;
+      }
+      // &:hover {
+      //   color: $primary !important;
+      // }
+    }
+    p {
+      font-size: 9px;
+      text-transform: uppercase;
+      @include media-breakpoint-up(md) {
+        font-size: 14px;
+      }
+    }
+    h2, h4 {
+      text-align: right;
+    }
+    h2 {
+      font-size: 14px;
+      color: $primary;
+      margin-bottom: 5px;
+      @include media-breakpoint-up(md) {
+        font-size: 22px;
+        font-weight: 600;
+      }
+    }
+    h4 {
+      font-size: 8px;
+      color: $gray-color;
+      text-transform: uppercase;
+      @include media-breakpoint-up(md) {
+        font-size: 12px;
+      }
+    }
+    .second-child {
+      display: flex;
+      align-items: center;
+      @include media-breakpoint-up(md) {
+        padding: 32px 0px;
+        padding-left: 10px;
+      }
+      @include media-breakpoint-up(lg) {
+        padding-right: 150px;
+      }
+      i {
+        width: 45px;
+        height: 45px;
+        color: $primary;
+        font-size: 20px;
+        line-height: 45px;
+        margin-right: 7px;
+        border-radius: 50%;
+        text-align: center;
+        border: 1px solid $primary;
+        @include media-breakpoint-up(md) {
+          margin-right: 30px;
+        }
+        @include media-breakpoint-up(lg) {
+          margin-right: 10px;
+        }
+      }
+    }
+    &.table-hover {
+      tbody {
+        tr {
+          transition: all .5s;
+        }
+      }
+    }
+  }
+}

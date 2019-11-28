@@ -1,0 +1,68 @@
+/* Footer Background Color */
+.footer, .footer-2 {
+  .footer-bg-color {
+    background-color: $dark-light;
+  }
+  .title-tag {
+    margin-bottom: 20px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 40px;
+    }
+    h6 {
+      color: $white;
+      text-transform: uppercase;
+      font-size: 15px;
+    }
+  }
+  .list-unstyled {
+    .media {
+      i {
+        color: $gray-color;
+      }
+      .media-body {
+        a {
+          color: $gray-color;
+          font-size: 0.875rem;
+          transition: all .3s;
+          &:hover {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+  .gallery {
+   > .col-4 {
+      padding: 0 0 0 15px;
+    }
+  }
+  .copyright {
+    background-color: $stone;
+    p {
+      font-size: 13px;
+      text-align: center;
+      @include media-breakpoint-up(lg) {
+        font-size: 14px;
+      }
+    }
+    .list-inline {
+      a {
+        font-size: 13px;
+        color: $gray-color;
+        transition: all .3s;
+        @include media-breakpoint-up(lg) {
+          font-size: 14px;
+        }
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+
+.footer-2 {
+  h6 {
+    font-weight: 400;
+  }
+}

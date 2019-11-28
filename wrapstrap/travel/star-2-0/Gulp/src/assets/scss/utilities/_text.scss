@@ -1,0 +1,60 @@
+/* Custom Text */
+p {
+  font-size: 0.875rem;
+  color: $gray-color;
+  font-family: $font-family-base;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+/* Link */
+a {
+  transition: all .3s;
+  display: inline-block;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+/* Text Decoration  */
+.text-underline {
+  text-decoration: underline!important;
+  &:hover {
+    text-decoration: underline!important;
+  }
+}
+
+.text-hover-underline {
+  text-decoration: none !important;
+  &:hover {
+    text-decoration: underline!important;
+  }
+}
+
+/* selection Color */
+::selection {
+  color: $white;
+  background-color: $primary;
+}
+
+/* Font Weight */
+.font-weight-medium {
+  font-weight: $font-weight-medium !important;
+}
+
+.font-weight-semibold {
+  font-weight: $font-weight-semibold !important;
+}
+
+/* Font Size */
+.font-size-base {
+  font-size: $font-size-base !important;
+}
+
+.font-size-15 {
+  font-size: $font-size-base * 1.08 !important;
+}
+
+.font-size-22 {
+  font-size: $font-size-base * 1.57 !important;
+}

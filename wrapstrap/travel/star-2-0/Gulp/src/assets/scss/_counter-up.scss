@@ -1,0 +1,38 @@
+/* Custom Counter */
+.counter-up {
+  .icon {
+    &.bg-primary {
+      background-color: rgba($primary, .8) !important;
+    }
+    &.bg-secondary {
+      background-color: rgba($secondary, .8) !important;
+    }
+    &.bg-success {
+      background-color: rgba($success, .8) !important;
+    }
+    &.bg-danger {
+      background-color: rgba($danger, .8) !important;
+    }
+    &.bg-warning {
+      background-color: rgba($warning, .8) !important;
+    }
+    &.bg-info {
+      background-color: rgba($info, .8) !important;
+    }
+  }
+  h1 {
+    font-size: 32px;
+    color: $white;
+    @include media-breakpoint-up(lg) {
+      font-size: 52px;
+    }
+  }
+  h6 {
+    color: $white;
+    font-size: 13px;
+    text-transform: uppercase;
+    @include media-breakpoint-up(lg) {
+      font-size: 15px;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+/* Background Parallax */
+.bg-parallax {
+  background-attachment: fixed;
+}
+
+/* Background Repeat */
+.bg-repeat {
+  background-repeat: repeat;
+}
+
+.bg-img {
+  background-size: cover !important;
+  background-position: center !important;
+  transition: all 0.3s linear;
+  position: relative;
+}
+
+.bg-overlay {
+	&:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	}
+}
+
+.bg-overlay-dark {
+	&:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba($black, .6);
+	}
+}
+
+.bg-overlay-darken {
+	&:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba($black, .3);
+	}
+}
+
+.bg-overlay-warning {
+	&:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba($primary, .7);
+	}
+}
+
+.img-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-overlay-dark {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: rgba($black, .3);
+}

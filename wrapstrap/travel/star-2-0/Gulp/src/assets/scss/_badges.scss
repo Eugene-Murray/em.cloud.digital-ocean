@@ -1,0 +1,148 @@
+/* Icon Badge */
+.icon-badge {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    padding: 0.1875rem 0.44rem;
+    border-radius: 0.625rem;
+    width: fit-content;
+  }
+}
+
+/* Badge Rounded And Rounded Circle */
+.badge-rounded,
+.badge-rounded-circle {
+  left: 20px;
+  top: 20px;
+  text-align: center;
+  transition: all .3s ease-in-out;
+  span {
+    font-size: 18px;
+    text-transform: uppercase;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%)
+  }
+}
+
+.badge-rounded {
+  font-size: 1rem;
+  padding: .89rem 1.375rem;
+  color: $white;
+  line-height: 1;
+  font-weight: 700;
+  border-radius: 4px;
+  width: fit-content;
+}
+.badge-rounded-circle {
+  padding: 0;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  box-shadow: none;
+  text-align: center;
+}
+
+/* Badge Wide */
+.badge-large {
+  position: absolute;
+  font-size: 1.25rem;
+  color: $white;
+  text-transform: capitalize;
+  line-height: 1;
+  padding: 0 .625rem;
+  @include media-breakpoint-up(lg){
+    font-size: 1.88rem;
+    padding: 0.4375rem 1.8rem;
+  }
+}
+.badge-large-left {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: .375rem;
+  border-bottom-right-radius: .375rem;
+  top: 15px;
+  @include media-breakpoint-up(lg){
+    top: 55px;
+  }
+}
+.badge-large-right {
+  border-top-left-radius: .375rem;
+  border-bottom-left-radius: .375rem;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  top: 15px;
+  right: 0;
+  @include media-breakpoint-up(lg){
+    top: 55px;
+  }
+}
+.badge-medium-center,
+.badge-large-center {
+  border-radius: .375rem;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.badge-medium {
+  position: absolute;
+  font-size: 1.125rem;
+  color: $white;
+  text-transform: capitalize;
+  padding: .937rem 0;
+  width: 100%;
+  @include media-breakpoint-up(md){
+    font-size: 1.25rem;
+    padding: .937rem 2.81rem;
+    width: auto;
+  }
+  @include media-breakpoint-up(lg){
+    padding: 22px 33px;
+    bottom: 30px;
+    span {
+      font-size: 1.5625rem;
+    }
+  }
+}
+.badge-sm {
+  width: 60px !important;
+  height: 60px !important;
+  line-height: 60px !important;
+  background-color: rgba($black, .06);
+  span {
+    font-size: 30px !important;
+  }
+}
+
+.badge-primary {
+  color: $white;
+  &:hover {
+    color: $white !important;
+  }
+}
+
+.badge-black-Offset {
+  background-color: rgba($black, .35);
+}
+
+.badge-hover {
+  transition: all .3s;
+  &:hover {
+    opacity: .8;
+  }
+}
+
+// Badge Pill
+.badge-pill-sm {
+  font-weight: 400;
+  border: 1px solid #dedede;
+  color: $gray-color;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}

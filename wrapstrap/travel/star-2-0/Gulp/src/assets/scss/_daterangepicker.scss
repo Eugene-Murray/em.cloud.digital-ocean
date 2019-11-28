@@ -1,0 +1,55 @@
+// Custom Date Picker
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: $primary;
+  border-color: transparent;
+  color: $white;
+}
+.daterange-picker {
+  padding: 0;
+  outline: 0;
+  font-size: 13px;
+  border-radius: 0;
+  box-shadow: none !important;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 400;
+  border-color: transparent !important;
+  background-color: transparent !important;
+  border-bottom: 1px solid rgba($white, .3) !important;
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.sidebar-daterange-picker {
+  color: $gray-color !important;
+  border-bottom: 1px solid #dedede !important; 
+  &::placeholder {
+    color: $gray-color !important;
+  }
+}
+
+.daterange-picker-white {
+  border-radius: 5px;
+  color: $white !important;
+  text-transform: uppercase;
+  border-color: $white !important;
+  background-color: transparent !important;
+  padding: 0.71rem 1rem;
+  font-family: sans-serif;
+  &::placeholder {
+    color: $white;
+  }
+}
+
+.daterange-picker-category-2 {
+  border-radius: 3px;
+  color: #666 !important;
+  text-transform: uppercase;
+  border-color: #dedede !important;
+  background-color: transparent !important;
+  padding: 0.71rem 1rem;
+  font-family: sans-serif;
+  &::placeholder {
+    color: $gray-color;
+  }
+}

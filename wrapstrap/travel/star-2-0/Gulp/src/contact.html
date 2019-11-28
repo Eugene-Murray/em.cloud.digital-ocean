@@ -1,0 +1,103 @@
+@@include('header.htm', {
+  "title": "Contact Us - Star Travel",
+  "parents": "pages",
+  "active": "contact-us"
+})
+
+@@include('page-title.htm', {
+  "title": "contact us",
+  "title-border": "title-border",
+  "text": "",
+  "bg-image": "assets/img/pages/page-title-bg5.jpg"
+})
+
+<!-- ====================================
+———	CONTACT INFO SECTION
+===================================== -->
+<section class="py-9 pt-md-10">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-5 col-xl-4">
+        <div class="contact-info">
+          <h2 class="text-uppercase font-weight-bold">get in touch</h2>
+          <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+        </div>
+
+        <div class="media mb-4">
+          <a href="" class="icon-contact-default bg-primary text-white mr-5">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+          </a>
+        
+          <div class="media-body">
+            <h4 class="text-uppercase font-weight-medium">Address</h4>
+            <p class="mb-0">16/14 Paris Road, Eiffel Tower, Art Louvre Museum Paris,  Fracce.</p>
+          </div>
+        </div>
+
+        <div class="media mb-4">
+          <a href="" class="icon-contact-default bg-primary text-white mr-5">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </a>
+        
+          <div class="media-body">
+            <h4 class="text-uppercase font-weight-medium">Phone number</h4>
+            <div class="">
+              <a href="tel:+55654545122" class="text-gray-color hover-text-primary">+55 654 545 122</a>
+            </div>
+
+            <div class="">
+              <a href="tel:+55654545123" class="text-gray-color hover-text-primary">+55 654 545 123</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="media mb-6 mb-md-0">
+          <a href="" class="icon-contact-default bg-primary text-white mr-5">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+        
+          <div class="media-body">
+            <h4 class="text-uppercase font-weight-medium">Email us</h4>
+            <div class="">
+              <a href="mailto:info@example.com" class="text-gray-color hover-text-primary">info@example.com</a>
+            </div>
+        
+            <div class="">
+              <a href="mailto:info@startravel.com" class="text-gray-color hover-text-primary">info@startravel.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-7 col-xl-8">
+        <form action="" method="POST" role="form" class="form">
+          <div class="form-group">
+            <input type="text" class="form-control border-0 bg-smoke" required="" placeholder="Your Name">
+          </div>
+
+          <div class="form-group">
+            <input type="email" class="form-control border-0 bg-smoke" placeholder="Your Email">
+          </div>
+
+          <div class="form-group">
+            <input type="number" class="form-control border-0 bg-smoke" placeholder="Your Phone">
+          </div>
+
+          <div class="form-group">
+            <textarea class="form-control border-0 bg-smoke" rows="6" placeholder="Your Message"></textarea>
+          </div>
+
+          <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary text-uppercase">send message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="" id="map" style="width:100%; height:555px;"></div>
+</section>
+
+@@include('footer.htm')

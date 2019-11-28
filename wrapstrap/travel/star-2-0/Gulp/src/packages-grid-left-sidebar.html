@@ -1,0 +1,597 @@
+@@include('header.htm', {
+  "title": "Packages Left Sidebar Grid View - Star Travel",
+  "parents": "tours",
+  "active": "packages-grid-left-sidebar"
+})
+
+@@include('page-title.htm', {
+  "title": "Tour Packages",
+  "title-border": "title-border",
+  "text": "",
+  "bg-image": "assets/img/pages/page-title-bg9.jpg"
+})
+
+<!-- ====================================
+———	TOUR PACKAGES SECTION
+===================================== -->
+<section class="bg-smoke py-10">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-xl-3">
+        <div class="row">
+          <div class="col-md-6 col-lg-12">
+            <div class="mb-6 bg-white p-3 border-top border-top-5 border-primary rounded">
+              <form class="" action="index.html" method="GET">
+                <h4 class="text-uppercase font-weight-bold">Search</h4>
+
+                <div class="mb-5">
+                  <div class="select-default select-category-1">
+                    <select class="select-option">
+                      <option>Destinations</option>
+                      <option>USA</option>
+                      <option>UK</option>
+                      <option>Canada</option>
+                    </select>
+                  </div>
+                </div>
+ 
+                <div class="form-group form-group-icon form-group-icon-dark mb-5">
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
+                  <input type="text" class="form-control daterange-picker sidebar-daterange-picker" name="dateRange"
+                    value="" placeholder="MM/DD/YYYY" />
+                </div>
+
+                <div class="form-group form-group-icon form-group-icon-dark mb-5">
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
+                  <input type="text" class="form-control daterange-picker sidebar-daterange-picker" name="dateRange"
+                    value="" placeholder="MM/DD/YYYY" />
+                </div>
+
+                <button type="button" onclick="location.href='javascript:void(0)';"
+                  class="btn btn-block btn-xs btn-outline-secondary text-uppercase">Search</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-12">
+            <div class="mb-6 bg-white p-3 border-top border-top-5 border-primary rounded">
+              <h4 class="text-uppercase font-weight-bold">Price</h4>
+
+              <div class="price-range mt-5" id="price-range">
+                <div class="price-range-content mb-5">
+                  <span class="price-value" id="lower-value"></span>
+                  <span class="mx-3"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                  <span class="price-value" id="upper-value"></span>
+                </div>
+
+                <div class="mb-6" id="slider-non-linear-step"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-8 col-xl-9">
+        <div class="row">
+          <div class="col-md-6 col-xl-4 mb-5">
+            <div class="card card-hover">
+              <a href="single-package-right-sidebar.html" class="position-relative">
+                <img class="card-img-top" src="assets/img/home/deal/deal-01.jpg" alt="Card image cap">
+                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
+                  <div class="badge badge-primary badge-rounded-circle">
+                    <span class="d-block">
+                      50%<br>off
+                    </span>
+                  </div>
+
+                  <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+
+                  <small>
+                    <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
+                      <li class="border-right border-white pr-2">7 days</li>
+                      <li class="border-right border-white px-2">15 hrs</li>
+                      <li class="pl-2">15 min</li>
+                    </ul>
+                  </small>
+                </div>
+              </a>
+
+              <div class="card-body px-4">
+                <h5>
+                  <a href="single-package-right-sidebar.html" class="card-title text-uppercase">Suspendisse Tour</a>
+                </h5>
+                <p class="mb-5">Integer purus ex, dictum nec elementum eu, tristique vel lectus. Donec rutrum lectus et
+                  pharetra
+                  egestas.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p class="mb-0 text-capitalize">Start from</p>
+                    <h3 class="text-primary">$299</h3>
+                  </div>
+                  <div>
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#inquiry" class="btn btn-xs btn-outline-secondary text-uppercase">Inquiry</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 mb-5">
+            <div class="card card-hover">
+              <a href="single-package-right-sidebar.html" class="position-relative">
+                <img class="card-img-top" src="assets/img/home/deal/deal-02.jpg" alt="Card image cap">
+                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
+                  <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+
+                  <small>
+                    <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
+                      <li class="border-right border-white pr-2">12 days</li>
+                      <li class="border-right border-white px-2">3 hrs</li>
+                      <li class="pl-2">12 min</li>
+                    </ul>
+                  </small>
+                </div>
+              </a>
+
+              <div class="card-body px-4">
+                <h5 class="">
+                  <a href="single-package-right-sidebar.html" class="card-title text-uppercase">Eros Erat Tour</a>
+                </h5>
+                <p class="mb-5">Proin convallis magna vel libero accumsan sollicitudin. Quisque dapibus vitae turpis eu
+                  magna sagittis.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p class="mb-0 text-capitalize">Start from</p>
+                    <h3 class="text-primary">$499</h3>
+                  </div>
+                  <div>
+                    <a href="booking-step-1.html" class="btn btn-xs btn-outline-secondary text-uppercase">Book now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 mb-5">
+            <div class="card card-hover">
+              <a href="single-package-right-sidebar.html" class="position-relative">
+                <img class="card-img-top" src="assets/img/home/deal/deal-03.jpg" alt="Card image cap">
+                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
+                  <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+
+                  <small>
+                    <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
+                      <li class="border-right border-white pr-2">17 days</li>
+                      <li class="border-right border-white px-2">14 hrs</li>
+                      <li class="pl-2">10 min</li>
+                    </ul>
+                  </small>
+                </div>
+              </a>
+
+              <div class="card-body px-4">
+                <h5>
+                  <a href="single-package-right-sidebar.html" class="card-title text-uppercase">Quisque Tour</a>
+                </h5>
+                <p class="mb-5">Vivamus eu mattis nibh. Quisque eget ipsum at odio fringilla consequat vel id erat.
+                  Suspendisse non
+                  feugiat mi.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p class="mb-0 text-capitalize">Start from</p>
+                    <h3 class="text-primary">$349</h3>
+                  </div>
+                  <div>
+                    <a href="single-package-fullwidth.html" class="btn btn-xs btn-outline-secondary text-uppercase">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 mb-5">
+            <div class="card card-hover">
+              <a href="single-package-right-sidebar.html" class="position-relative">
+                <img class="card-img-top" src="assets/img/packages/package-01.jpg" alt="Card image cap">
+                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
+                  <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+
+                  <small>
+                    <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
+                      <li class="border-right border-white pr-2">25 days</li>
+                      <li class="border-right border-white px-2">01 hrs</li>
+                      <li class="pl-2">03 min</li>
+                    </ul>
+                  </small>
+                </div>
+              </a>
+
+              <div class="card-body px-4">
+                <h5 class="">
+                  <a href="single-package-right-sidebar.html" class="card-title text-uppercase">Blandit Tour</a>
+                </h5>
+
+                <p class="mb-5">Sagittis proin convallis magna vel libero accumsan sollicitudin. Quisque dapibus vitae
+                  turpis eu magna.</p>
+
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p class="mb-0 text-capitalize">Start from</p>
+                    <h3 class="text-primary">$199</h3>
+                  </div>
+                  <div>
+                    <a href="single-package-fullwidth.html" class="btn btn-xs btn-outline-secondary text-uppercase">Details</a>
+                    <a href="" class="btn btn-xs btn-outline-secondary px-3">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 mb-5">
+            <div class="card card-hover">
+              <a href="single-package-right-sidebar.html" class="position-relative">
+                <img class="card-img-top" src="assets/img/packages/package-02.jpg" alt="Card image cap">
+                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
+                  <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+
+                  <small>
+                    <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
+                      <li class="border-right border-white pr-2">27 days</li>
+                      <li class="border-right border-white px-2">05 hrs</li>
+                      <li class="pl-2">33 min</li>
+                    </ul>
+                  </small>
+                </div>
+              </a>
+
+              <div class="card-body px-4">
+                <h5 class="">
+                  <a href="single-package-right-sidebar.html" class="card-title text-uppercase">Turpis Eu Tour</a>
+                </h5>
+
+                <p class="mb-5">Suspendisse non feugiat mi. Vivamus eu mattis nibh. Quisque eget ipsum at odio fringilla
+                  consequat vel id erat.</p>
+
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p class="mb-0 text-capitalize">Start from</p>
+                    <h3 class="text-primary">$249</h3>
+                  </div>
+                  <div>
+                    <a href="booking-step-1.html" class="btn btn-xs btn-outline-secondary text-uppercase">Book</a>
+                    <a href="" class="btn btn-xs btn-outline-secondary px-3">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 mb-5">
+            <div class="card card-hover">
+              <a href="single-package-right-sidebar.html" class="position-relative">
+                <img class="card-img-top" src="assets/img/packages/package-03.jpg" alt="Card image cap">
+                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
+                  <div class="badge badge-primary badge-rounded-circle">
+                    <span class="d-block">
+                      50%<br>off
+                    </span>
+                  </div>
+
+                  <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+
+                  <small>
+                    <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
+                      <li class="border-right border-white pr-2">35 days</li>
+                      <li class="border-right border-white px-2">11 hrs</li>
+                      <li class="pl-2">03 min</li>
+                    </ul>
+                  </small>
+                </div>
+              </a>
+
+              <div class="card-body px-4">
+                <h5>
+                  <a href="single-package-right-sidebar.html" class="card-title text-uppercase">Pharetra Tour</a>
+                </h5>
+                <p class="mb-5">Donec rutrum lectus et pharetra egestas. Integer purus ex, dictum nec elementum eu,
+                  tristique vel lectus.</p>
+
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p class="mb-0 text-capitalize">Start from</p>
+                    <h3 class="text-primary">$149</h3>
+                  </div>
+                  <div>
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#inquiry" class="btn btn-xs btn-outline-secondary text-uppercase">Inquiry</a>
+                    <a href="" class="btn btn-xs btn-outline-secondary px-3">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 mb-5">
+            <div class="card card-hover">
+              <a href="single-package-right-sidebar.html" class="position-relative">
+                <img class="card-img-top" src="assets/img/packages/package-04.jpg" alt="Card image cap">
+                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
+                  <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+
+                  <small>
+                    <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
+                      <li class="border-right border-white pr-2">07 days</li>
+                      <li class="border-right border-white px-2">15 hrs</li>
+                      <li class="pl-2">20 min</li>
+                    </ul>
+                  </small>
+                </div>
+              </a>
+
+              <div class="card-body px-4">
+                <h5 class="">
+                  <a href="single-package-right-sidebar.html" class="card-title text-uppercase">France / Europe</a>
+                </h5>
+
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p class="mb-0 text-capitalize">Start from</p>
+                    <h3 class="text-primary">$150</h3>
+                  </div>
+                  <div>
+                    <a href="single-package-fullwidth.html" class="btn btn-xs btn-outline-secondary text-uppercase">Details</a>
+                    <a href="" class="btn btn-xs btn-outline-secondary px-3">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 mb-5">
+            <div class="card card-hover">
+              <a href="single-package-right-sidebar.html" class="position-relative">
+                <img class="card-img-top" src="assets/img/packages/package-05.jpg" alt="Card image cap">
+                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
+                  <div class="badge badge-primary badge-rounded-circle">
+                    <span class="d-block">
+                      50%<br>off
+                    </span>
+                  </div>
+
+                  <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+
+                  <small>
+                    <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
+                      <li class="border-right border-white pr-2">07 days</li>
+                      <li class="border-right border-white px-2">15 hrs</li>
+                      <li class="pl-2">20 min</li>
+                    </ul>
+                  </small>
+                </div>
+              </a>
+
+              <div class="card-body px-4">
+                <h5 class="">
+                  <a href="single-package-right-sidebar.html" class="card-title text-uppercase"> Europe / France</a>
+                </h5>
+
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p class="mb-0 text-capitalize">Start from</p>
+                    <h3 class="text-primary">$150</h3>
+                  </div>
+                  <div>
+                    <a href="single-package-fullwidth.html" class="btn btn-xs btn-outline-secondary text-uppercase">Details</a>
+                    <a href="" class="btn btn-xs btn-outline-secondary px-3">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 mb-5">
+            <div class="card card-hover">
+              <a href="single-package-right-sidebar.html" class="position-relative">
+                <img class="card-img-top" src="assets/img/packages/package-06.jpg" alt="Card image cap">
+                <div class="card-img-overlay card-hover-overlay rounded-top d-flex flex-column">
+                  <ul class="list-unstyled d-flex mt-auto text-warning mb-0">
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </li>
+                  </ul>
+
+                  <small>
+                    <ul class="list-unstyled d-flex text-white font-weight-bold mb-0">
+                      <li class="border-right border-white pr-2">07 days</li>
+                      <li class="border-right border-white px-2">15 hrs</li>
+                      <li class="pl-2">20 min</li>
+                    </ul>
+                  </small>
+                </div>
+              </a>
+
+              <div class="card-body px-4">
+                <h5 class="">
+                  <a href="single-package-right-sidebar.html" class="card-title text-uppercase"> Europe / France</a>
+                </h5>
+
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p class="mb-0 text-capitalize">Start from</p>
+                    <h3 class="text-primary">$150</h3>
+                  </div>
+                  <div>
+                    <a href="single-package-fullwidth.html" class="btn btn-xs btn-outline-secondary text-uppercase">Details</a>
+                    <a href="" class="btn btn-xs btn-outline-secondary px-3">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  @@include('pagination.htm')
+</section>
+
+@@include('footer.htm')

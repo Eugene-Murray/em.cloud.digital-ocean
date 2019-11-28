@@ -1,0 +1,184 @@
+@@include('header.htm', {
+  "title": "Booking Step 1 - Personal Information - Star Travel",
+  "parents": "hotels",
+  "active": "booking-step-1"
+})
+
+@@include('page-title.htm', {
+  "title": "Booking step 1",
+  "title-border": "title-border",
+  "text": "",
+  "bg-image": "assets/img/pages/page-title-bg7.jpg"
+})
+
+<!-- ====================================
+———	BOOKING SECTION
+===================================== -->
+<section class="py-8 py-md-10">
+  <div class="container">
+    <div class="mb-8">
+      <div class="row progress-wizard">
+        <div class="col-4 progress-wizard-step active">
+          <div class="progress">
+            <div class="progress-bar"></div>
+          </div>
+      
+          <a href="javascript:void(0)" class="progress-wizard-dot">
+            <div class="progress-wizard-content">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              <span class="d-block">1. Personal info</span>
+            </div>
+          </a>
+        </div>
+      
+        <div class="col-4 progress-wizard-step incomplete">
+          <div class="progress">
+            <div class="progress-bar"></div>
+          </div>
+      
+          <a href="booking-step-2.html" class="progress-wizard-dot">
+            <div class="progress-wizard-content">
+              <i class="fa fa-usd" aria-hidden="true"></i>
+              <span class="d-block">2. Payment info</span>
+            </div>
+          </a>
+        </div>
+      
+        <div class="col-4 progress-wizard-step incomplete">
+          <div class="progress">
+            <div class="progress-bar"></div>
+          </div>
+      
+          <a href="booking-step-3.html" class="progress-wizard-dot">
+            <div class="progress-wizard-content">
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span class="d-block">3. Confirmation</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-7 col-lg-8 order-1 order-md-0">
+        <h3 class="text-capitalize mb-5">personal info</h3>
+
+        <form action="" method="post" target="_blank">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="inputName">First Name</label>
+                <input type="text" class="form-control border-0 bg-smoke">
+              </div>
+            </div>
+    
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="inputName">Last Name</label>
+                <input type="text" class="form-control border-0 bg-smoke">
+              </div>
+            </div>
+    
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="inputName">Adderss 1</label>
+                <input type="text" class="form-control border-0 bg-smoke">
+              </div>
+            </div>
+    
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="inputName">Adderss 2</label>
+                <input type="text" class="form-control border-0 bg-smoke">
+              </div>
+            </div>
+    
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="inputName">City</label>
+                <input type="text" class="form-control border-0 bg-smoke">
+              </div>
+            </div>
+    
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="inputName">Zip Code</label>
+                <input type="number" class="form-control border-0 bg-smoke">
+              </div>
+            </div>
+    
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="inputName">State/Region</label>
+                <input type="text" class="form-control border-0 bg-smoke">
+              </div>
+            </div>
+    
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label for="inputName">Country</label>
+                <input type="text" class="form-control border-0 bg-smoke">
+              </div>
+            </div>
+          </div>
+    
+          <div class="form-group mb-5">
+            <label for="exampleFormControlTextarea1">Requirements</label>
+            <textarea class="form-control border-0 bg-smoke" rows="7"></textarea>
+          </div>
+    
+          <div class="form-group form-check mb-9">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"> I have read and accept the
+              <a href="">terms and conditions</a>
+            </label>
+          </div>
+    
+          <div class="text-center text-md-left text-lg-right">
+            <button type="button" onclick="location.href='booking-step-2.html';" class="btn btn-primary text-uppercase">
+              Next
+            </button>
+          </div>
+        </form>
+      </div>
+    
+      <div class="col-md-5 col-lg-4">
+        <h3 class="mb-5">Booking Details</h3>
+        <div class="card bg-smoke mb-6 mb-md-0">
+          <img class="card-img-top" src="assets/img/booking/booking.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h6 class="card-title text-dark">Maldives Tour</h6>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-transparent border-top-0 px-0 py-4">
+                <span><i class="fa fa-calendar mr-1" aria-hidden="true"></i>From:</span>
+                <span class="text-gray-color">25 Mar, 2019</span>
+              </li>
+            
+              <li class="list-group-item bg-transparent px-0 py-4 border-off-white">
+                <span><i class="fa fa-calendar mr-1" aria-hidden="true"></i>To:</span>
+                <span class="text-gray-color">28 Mar, 2019</span>
+              </li>
+
+              <li class="list-group-item bg-transparent px-0 py-4 border-off-white">
+                <span><i class="fa fa-user mr-1" aria-hidden="true"></i>Guests:</span>
+                <span class="text-gray-color">2 Adults, 1Child</span>
+              </li>
+
+              <li class="list-group-item bg-transparent px-0 py-4 d-none"></li>
+            </ul>
+          </div>
+
+          <div class="card-footer mt-6">
+            <h2 class="mb-0">
+              <span>Total:</span>
+              <span class="text-primary font-weight-bold">$6,500</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+@@include('footer.htm')

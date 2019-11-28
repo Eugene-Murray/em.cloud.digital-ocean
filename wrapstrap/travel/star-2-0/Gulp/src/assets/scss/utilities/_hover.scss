@@ -1,0 +1,122 @@
+// Custom Hover
+.hover-bg-primary {
+  transition: all .3s ease-in-out;
+  &:hover {
+    background-color: $primary;
+    border-color: $primary;
+    color: $white;
+  }
+}
+
+.hover-bg-secondary {
+  transition: all .3s ease-in-out;
+  &:hover {
+    background-color: $secondary;
+    border-color: $secondary;
+    color: $white;
+  }
+}
+
+.hover-bg-success {
+  transition: all .3s ease-in-out;
+  &:hover {
+    background-color: $success;
+    border-color: $success;
+    color: $white;
+  }
+}
+
+.hover-bg-danger {
+  transition: all .3s ease-in-out;
+  &:hover {
+    background-color: $danger;
+    border-color: $danger;
+    color: $white;
+  }
+}
+
+.hover-bg-warning {
+  transition: all .3s ease-in-out;
+  &:hover {
+    background-color: $warning;
+    border-color: $warning;
+    color: $white;
+  }
+}
+
+.hover-bg-info {
+  transition: all .3s ease-in-out;
+  &:hover {
+    background-color: $info;
+    border-color: $info;
+    color: $white;
+  }
+}
+
+.hover-overlay {
+  transition: all .3s ease-in-out;
+  &:hover {
+    background-color: rgba($dark, .5);
+  }
+}
+
+.hover-img-overlay-dark {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  &:hover {
+    background-color: rgba($dark, .3);
+  }
+}
+
+a.hover-text-primary {
+  &:hover, &:focus {
+    color: $primary !important;
+  } 
+}
+
+a.hover-text-success {
+  &:hover, &:focus {
+    color: $success !important;
+  } 
+}
+
+a.hover-text-danger {
+  &:hover, &:focus {
+    color: $danger !important;
+  } 
+}
+
+a.hover-text-info {
+  &:hover, &:focus {
+    color: $info !important;
+  } 
+}
+
+a.hover-text-warning {
+  &:hover, &:focus {
+    color: $warning !important;
+  } 
+}
+
+a.hover-text-success-light {
+  &:hover, &:focus {
+    color: $success-light !important;
+  } 
+}
+
+a.hover-text-gray-color {
+  &:hover, &:focus {
+    color: $gray-color !important;
+  } 
+}
+
+.hover-profile {
+  &:hover {
+    .icon-setting {
+      opacity: 1;
+    }
+  }
+}

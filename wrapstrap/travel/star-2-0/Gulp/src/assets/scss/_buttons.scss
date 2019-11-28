@@ -1,0 +1,134 @@
+/* Buttons Customize */
+.btn-primary {
+  color: $white;
+  &.btn-sale {
+    &:hover {
+      background-color: transparent !important;
+      border-color: $white;
+    }
+  }
+}
+
+.btn-outline-primary {
+  &:hover {
+    color: $white;
+  }
+  &.btn-sale {
+    border-color: $white;
+    color: $white;
+    &:hover {
+      border-color: $primary;
+    }
+  }
+}
+
+.btn-append {
+  background-color: $gray-dark;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+  color: $white;
+}
+
+.btn-hover,
+.btn-xs,
+.btn-sm {
+  &.btn-outline-secondary {
+    border-color: #ddd; 
+    color: $gray-color;
+    &:hover {
+      border-color: $primary;
+      background-color: $primary;
+      color: $white; 
+    }
+    &.btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active, .show > .btn-outline-secondary.dropdown-toggle {
+      border-color: $primary;
+      background-color: $primary;
+    }
+  }
+}
+
+.btn-xs {
+  font-size: $btn-font-size-xs;
+  padding: $btn-padding-y-xs $btn-padding-x-xs;
+  line-height: $btn-line-height-xs;
+}
+
+.btn-white {
+  background-color: $white;
+  color: $primary !important;
+}
+
+.btn-outline-white {
+  border-color: $white;
+  color: $gray-color;
+  &:hover {
+    border-color: $primary;
+    background-color: $primary;
+    color: $white; 
+  }
+}
+
+.btn-booking {
+  font-size: 15px;
+  &.btn-white {
+    border-color: $white;
+    background-color: $white;
+    color: $primary;
+    &:hover {
+      color: $primary;
+   }
+  }
+  &.btn-outline-white {
+    background-color: transparent;
+    color: $white;
+    &:hover {
+      background-color: $white;
+      border-color: $white;
+      color: $primary;
+    }
+  }
+}
+
+.btn-payment {
+  &:hover {
+    background-color: $primary !important;
+    border-color: $primary !important;
+    color: $white !important;
+  }
+}
+
+/* Buttons Of Fillter */
+.button-group {
+  text-align: center;
+  margin-bottom: 30px;
+  .button {
+    padding: 0 1.56rem;
+    height: 39px;
+    font-size: .875rem;
+    color: $dark;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    color: $gray-color;
+    border-radius: $border-radius;
+    margin: 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      background-color: $primary;
+      border-color: $primary;
+      color: $white;
+    }
+    &:focus{
+      outline: 0;
+    }
+    &.is-checked {
+      background-color: $primary;
+      border-color: $primary;
+      color: $white;
+      transition: all 0.3s;
+    }
+  }
+}

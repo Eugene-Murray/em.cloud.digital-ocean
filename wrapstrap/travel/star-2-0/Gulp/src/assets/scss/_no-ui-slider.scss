@@ -1,0 +1,76 @@
+/* No UI Slider */
+.price-range {
+  .price-range-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    @include media-breakpoint-up(md) {
+      flex-wrap: nowrap;
+    }
+  }
+  .price-text,
+  .price-value {
+    color: $dark;
+    font-weight: 600;
+  }
+  // .price-value {
+  //   min-width: 35px;
+  // }
+  .btn {
+    margin-right: 10px;
+    @include media-breakpoint-up(md) {
+      margin-right: 0px;
+    }
+  }
+}
+
+.noUi-target {
+  background-color: #dedede;
+  box-shadow: none;
+  border: 0;
+}
+
+.noUi-horizontal {
+  height: 4px;
+  border-radius: $border-radius;
+  .noUi-handle {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background-color: $primary;
+    box-shadow: none;
+    border: 0;
+    border-radius: 50%;
+    top: -7px;
+  }
+}
+
+.noUi-handle:after,
+.noUi-handle:before {
+  display: none;
+}
+
+.noUi-connect {
+  background-color: $primary;
+}
+
+.noUi-horizontal .noUi-origin,
+.noUi-handle.noUi-handle-lower,
+.noUi-handle.noUi-handle-upper {
+  &:focus {
+    outline: none;
+  }
+}
+
+html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
+  right: -16px;
+  cursor: e-resize;
+}
+
+.noUi-horizontal .noUi-handle.noUi-handle-lower {
+  left: auto !important;
+}
+
+.noUi-horizontal .noUi-handle.noUi-handle-upper {
+  right: -1px !important;
+}

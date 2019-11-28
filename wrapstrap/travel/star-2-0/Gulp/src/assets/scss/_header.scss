@@ -1,0 +1,80 @@
+/* Header */
+.header {
+  position: relative;
+}
+
+/* Top bar */
+.top-bar {
+  position: relative;
+  background-color: $smoke;
+  padding: 8px 0;
+  a {
+    color: $gray-color;
+    font-size: 13px;
+    font-family: sans-serif;
+    transition: all .3s;
+  }
+  .top-content {
+    border-bottom: 1px solid rgba(225, 225, 225, .2);
+    padding-top: 1.0625rem;
+    padding-bottom: 1.125rem;
+  }
+}
+
+// Cart button Section
+.search-item {
+  position: relative;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: table;
+	table-layout: fixed;
+  z-index: 10000;
+	.search-box {
+    position: absolute;
+    top: 30px;
+    right: 0;
+		background-color: $white;
+    width: 350px;
+    padding: 15px;
+		display: none;
+    box-shadow: 0 4px 6px rgba(0,0,0, .175);
+		z-index: 10;
+    &.visible {
+      display: block !important;
+    }
+	}
+}
+
+// Icon Toggle
+.icon-toggle {
+	display: table-cell;
+	transition: all 0.3s ease 0s;
+	vertical-align: middle;
+	&.active {
+		> i {
+			opacity: 0;
+			transform: translateY(-20px) scale(0.7);
+		}
+	}
+	&.active::after {
+		opacity: 1;
+		transform: translateY(0px) scale(1);
+	}
+	> i {
+		display: inline-block;
+		font-style: normal;
+		opacity: 1;
+		position: relative;
+		transform: translateY(0px) scale(1);
+  }
+  &:after {
+    content: "\f00d";
+    display: block;
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transform: translateY(20px) scale(0.7);
+  }
+}

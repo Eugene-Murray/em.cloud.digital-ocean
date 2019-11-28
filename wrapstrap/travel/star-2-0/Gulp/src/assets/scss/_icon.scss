@@ -1,0 +1,107 @@
+//Icon Default
+.icon-default {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+
+//Icon Small
+.icon-sm {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+//Icon medium
+.icon-md {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+//Icon Large
+.icon-lg {
+  width: 96px;
+  height: 96px;
+  line-height: 96px;
+  font-size: 42px;
+  text-align: center;
+}
+
+//Icon Extra Large
+.icon-xl {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  font-size: 3.125rem;
+  text-align: center;
+}
+
+//Icon Border
+.icon-border {
+  border: 1px solid #4a4e52;
+}
+
+.icon-light-border {
+  border: 1px solid #e7e7e7;
+}
+
+.icon-setting {
+  opacity: 0;
+  transition: all.5s;
+}
+
+/* Icon Border-2 */
+.icon-border-secondary {
+  border: 1px solid $gray-color;
+}
+
+/* Icon Color */
+.icon-gray {
+  color: $gray-color;
+}
+
+/* Icon Play */
+.icon-play {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 5px solid $white;
+  font-size: 60px;
+  color: $white !important;
+  line-height: 100px;
+  padding-left: 10px;
+}
+
+/* Icon Item */
+.icon-item-default {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 35px;
+  text-align: center;
+}
+
+/* Icon Contact */
+.icon-contact-default {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  font-size: 35px;
+  text-align: center;
+}
+
+/* Icon Social */
+.icon-social {
+  background-color: rgba($white, 0.4);
+  color: rgba($black, 0.4);
+}
+
+/* Icon Medium */
+.icon-medium {
+  font-size: $font-size-base * 1.29 !important;
+}

@@ -1,0 +1,137 @@
+@@include('header.htm', {
+  "title": "Gallery Photo Slider - Star Travel",
+  "parents": "pages",
+  "active": "gallery-photo-slider"
+})
+
+@@include('page-title.htm', {
+  "title": "Gallery",
+  "title-border": "title-border",
+  "text": "",
+  "bg-image": "assets/img/pages/page-title-bg8.jpg"
+})
+
+<!-- ====================================
+———	GALLERY PHOTO SLIDER
+===================================== -->
+<section class="py-9 py-lg-10">
+  <div class="container">
+    <div class="position-relative">
+      <div id="gallery-photo-slider" class="owl-carousel owl-theme gallery-photo-slider mb-6">
+        <div class="item" data-hash="one">
+          <img src="assets/img/gallery/gallery-single-slider-01.jpg" alt="image">
+        </div>
+      
+        <div class="item" data-hash="two">
+          <img src="assets/img/gallery/gallery-single-slider-02.jpg" alt="image">
+        </div>
+      
+        <div class="item" data-hash="three">
+          <img src="assets/img/gallery/gallery-single-slider-03.jpg" alt="image">
+        </div>
+      </div>
+
+      <div class="owl-slider-tabs position-absolute">
+        <ul class="list-unstyled d-flex mb-0">
+          <li class="">
+            <a class="one slidetabs active" href="#one">
+              <img src="assets/img/gallery/gallery-single-thumb-01.jpg" alt="img">
+            </a>
+          </li>
+      
+          <li class="">
+            <a class="two slidetabs" href="#two">
+              <img src="assets/img/gallery/gallery-single-thumb-02.jpg" alt="img">
+            </a>
+          </li>
+      
+          <li class="">
+            <a class="three slidetabs" href="#three">
+              <img src="assets/img/gallery/gallery-single-thumb-03.jpg" alt="img">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mb-9">
+      <h3 class="text-uppercase mb-6">Maldives tour</h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+      aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+      eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+
+    <div class="">
+      <h3 class="text-uppercase mb-5">similar Tour</h3>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="media media-hoverable justify-content-center mb-2 mb-md-4 mb-lg-0">
+            <div class="media-content">
+              <img class="media-img" src="assets/img/packages/package-related-01.jpg" alt="Generic placeholder image">
+          
+              <a href="" class="media-img-overlay">
+                <div class="overlay-content">
+                  <h3 class="text-uppercase font-weight-bold mb-3">Maldives Tour</h3>
+                  <p class="text-white text-capitalize mb-4">Lorem ipsum</p>
+          
+                  <button type="button" onclick="location.href='jascript:void(0)';"
+                    class="btn btn-xs btn-sale btn-primary text-uppercase">
+                    View more
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="media media-hoverable justify-content-center mb-2 mb-md-4 mb-lg-0">
+            <div class="media-content">
+              <img class="media-img" src="assets/img/packages/package-related-02.jpg" alt="Generic placeholder image">
+        
+              <a href="" class="media-img-overlay">
+                <div class="overlay-content">
+                  <h3 class="text-uppercase font-weight-bold mb-3">Blandit Tour</h3>
+                  <p class="text-white text-capitalize mb-4">Lorem ipsum</p>
+        
+                  <button type="button" onclick="location.href='jascript:void(0)';"
+                    class="btn btn-xs btn-sale btn-primary text-uppercase">
+                    View more
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="media media-hoverable justify-content-center">
+            <div class="media-content">
+              <img class="media-img" src="assets/img/packages/package-related-03.jpg" alt="Generic placeholder image">
+        
+              <a href="" class="media-img-overlay">
+                <div class="overlay-content">
+                  <h3 class="text-uppercase font-weight-bold mb-3">Supendis Tour</h3>
+                  <p class="text-white text-capitalize mb-4">Lorem ipsum</p>
+        
+                  <button type="button" onclick="location.href='jascript:void(0)';"
+                    class="btn btn-xs btn-sale btn-primary text-uppercase">
+                    View more
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+@@include('footer.htm')

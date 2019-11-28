@@ -1,0 +1,167 @@
+/* Secelete2 */
+.select2-select {
+  width: 100%;
+}
+
+.select2-container--default .select2-selection--single {
+  &:focus {
+    outline: 0;
+  }
+}
+
+.select-dropdown-top {
+  margin-top: 0;
+  .select2-container--default .select2-selection--single {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: '\f107';
+      font-family: 'FontAwesome';
+      font-style: normal;
+      right: 0;
+      color: $white;
+    }
+    .select2-selection__arrow b {
+      top: 100%;
+      left: 0;
+      display: none;
+    }
+    .select2-selection__rendered {
+      color: $white;
+      font-weight: 400;
+      line-height: 30px;
+      padding-left: 20px;
+    }
+  }
+
+    .select2-container--default.select2-container--open.select2-container--below .select2-selection--single, .select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+}
+
+.select-dropdown {
+  transition: all .9s;
+  .select2-container--default .select2-selection--single {
+    transition: all .9s;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba($white, .3); 
+    border-radius: 0;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: '\f107';
+      font-family: 'FontAwesome';
+      font-style: normal;
+      right: 0;
+      color: rgba($white, .3);
+    }
+    .select2-selection__arrow b {
+      top: 100%;
+      left: 0;
+      display: none;
+    }
+    .select2-selection__rendered {
+      color: rgba($white, .3);
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 45px;
+      padding-left: 0;
+    }
+  }
+
+    .select2-container--default.select2-container--open.select2-container--below .select2-selection--single, .select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  &.text-color {
+    .select2-container--default .select2-selection--single {
+      border-bottom: 1px solid #dedede !important; 
+      .select2-selection__rendered, &:before {
+        color: $gray-color !important;
+      }
+    }
+  }
+}
+
+.select-dropdown-option {
+  .select2-container--default .select2-selection--single {
+    background-color: $white;
+    border: 1px solid $border-color;
+    border-radius: 0;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: '\f017';
+      font-family: 'FontAwesome';
+      font-style: normal;
+      right: 20px;
+      color: $gray-color;
+    }
+    .select2-selection__arrow b {
+      top: 100%;
+      left: 0;
+      display: none;
+    }
+    .select2-selection__rendered {
+      color: $gray-color;
+      font-weight: 400;
+      line-height: 50px;
+      padding-left: 20px;
+    }
+  }
+
+    .select2-container--default.select2-container--open.select2-container--below .select2-selection--single, .select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+}
+
+// dropdown
+.select2-search--dropdown {
+  display: none;
+}
+
+.select2-container--open .select2-dropdown--below {
+  border: 1px solid #ddd;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.select2-results__option[aria-selected] {
+  border-bottom: 1px solid #ddd;
+  font-family: open sans,sans-serif;
+  font-size: 12px;
+  padding: 11px 17px;
+  text-transform: capitalize;
+  transition: all .4s;
+  color: $gray-color;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+  background-color: $white;
+  color: $gray-color;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: $white;
+  color: $gray-color;
+  &:hover {
+    color: $primary;
+    background-color: $gray-100;
+  }
+}
+
+.select2-container--default .select2-results>.select2-results__options {
+  color: $gray-color;
+}
