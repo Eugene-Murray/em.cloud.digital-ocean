@@ -10,6 +10,7 @@ async function bootstrap() {
     .setDescription('em.cloud.solutions API description')
     .setVersion('1.0')
     .addTag('data-api')
+    .setSchemes('https')
     .build();
   const document = SwaggerModule.createDocument(app, options);
   SwaggerModule.setup('api', app, document);
