@@ -9,7 +9,6 @@ export class SitesController {
 
   @Post()
   async create(@Body() createSiteDto: CreateSiteDto) {
-    console.warn(createSiteDto);
     this.sitesService.create(createSiteDto);
   }
 

@@ -34,5 +34,7 @@
 			"path": "em.cloud.eugenemurray.sapper.app"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wrapstrap"
+	}
 }
