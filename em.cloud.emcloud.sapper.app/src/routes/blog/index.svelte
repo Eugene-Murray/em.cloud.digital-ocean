@@ -8,6 +8,21 @@
 
 <script>
 	export let posts;
+
+async function getBlogPosts() {
+	try {
+		debugger;
+		console.log('getBlogPosts()');
+		const response = await fetch('https://emcloud.solutions/api/blogs');
+		const myJson = await response.json();
+		console.log(JSON.stringify(myJson));
+	} catch (error) {
+  		console.error(error);
+	}
+}
+getBlogPosts();
+
+
 </script>
 
 <style>
