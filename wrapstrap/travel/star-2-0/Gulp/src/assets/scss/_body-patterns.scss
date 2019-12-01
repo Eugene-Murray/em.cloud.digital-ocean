@@ -1,0 +1,57 @@
+.default{
+	background-image: url("../img/patterns/pattern1.png");
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.pattern-01{
+	background-image: url("../img/patterns/pattern2.png");
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.pattern-02{
+	background-image: url("../img/patterns/pattern3.png");
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.pattern-03{
+	background-image: url("../img/patterns/pattern4.png");
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.pattern-04{
+	background-image: url("../img/patterns/pattern5.png");
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Boxed Layout */
+body.boxed {
+  margin:0 auto;
+  position: relative;
+  @include media-breakpoint-up(md) {
+    max-width: 700px;
+    .navbar-sticky {
+      max-width: 700px;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    max-width: 950px;
+    .navbar-sticky {
+      max-width: 950px;
+    }
+  }
+  @include media-breakpoint-up(xl) {
+    max-width: 1250px;
+    .navbar-sticky {
+      max-width: 1250px;
+    }
+  }
+  .main-wrapper {
+    background: $white;
+  }
+}

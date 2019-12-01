@@ -1,0 +1,186 @@
+/* Card */
+.card {
+  img {
+    transition: all .3s;
+  }
+  transition: all .3s;
+  .card-header {
+    padding: 0.93rem 1.5rem;
+  }
+  .card-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: $dark;
+    transition: all .3s;
+  }
+  &:hover {
+    .card-title {
+      color: $primary;
+    }
+  }
+}
+
+/* Card Large */
+.card-lg {
+  img {
+    object-fit: cover;
+    height: 300px;
+    @include media-breakpoint-up(md) {
+      height: 400px;
+    }
+    @include media-breakpoint-up(lg) {
+      height: 350px;
+    }
+    @include media-breakpoint-up(xl) {
+      height: auto;
+    }
+  }
+}
+
+/* Card Medium */
+.card-md {
+  .card-body {
+    padding-top: 43px;
+    padding-bottom: 43px;
+  }
+}
+
+/* Card Hover */
+.card-hover {
+  &:hover {
+    box-shadow: $box-shadow;
+  }
+}
+
+/* Card Bg */
+.card-bg {
+  background-color: $smoke;
+  &:hover {
+    box-shadow: $box-shadow;
+    background-color: $white;
+  }
+}
+
+/* Card Bg White */
+.card-bg-white {
+  padding: 70px 0 40px;
+  .card-body {
+    padding: 1.8rem;
+    h6 {
+      line-height: 26px;
+      margin-bottom: 25px;
+    }
+    a {
+      font-size: 13px;
+      color: $gray-color;
+      text-decoration: underline;
+      transition: all .3s;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}
+
+/* Card Opacity */
+.card-opacity {
+  img {
+    @include media-breakpoint-up(md) {
+      width: auto;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 100%;
+    }
+  }
+  .card-body {
+    padding-top: 15px;
+    h5 {
+     > a {
+        margin-bottom: 5px;
+      }
+    }
+  }
+  &:hover {
+    .card-hover-overlay {
+      background-color: rgba($black, .3);
+    }
+  }
+}
+
+/* Card Transparent */
+.card-transparent {
+  background-color: transparent;
+  .card-footer {
+    padding: 0;
+    background-color: transparent;
+  }
+}
+
+/* Card Hover Overlay */
+.card-hover-overlay {
+  transition: all .5s;
+  &:hover {
+    background-color: rgba($black, .3);
+  }
+}
+
+/* Card Hoverable */
+.card-hoverable {
+  transition: all .3s ease-in-out;
+  background-color: rgba($black, .7s);
+  &:hover {
+    @include media-breakpoint-up(lg) {
+      background-color: rgba($black, .7s);
+      .top-content {
+        bottom: 185px;
+        margin-bottom: 0;
+      }
+      .bottom-content {
+        opacity: 1;
+        visibility: visible;
+        transition: all .99s;
+      }
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    background-color: transparent;
+  }
+  .top-content {
+    transition: all .3s ease-in-out;
+    bottom: 185px;
+    position: absolute;
+    margin-bottom: 0;
+    @include media-breakpoint-up(lg) {
+      bottom: 0;
+      margin-bottom: 30px;
+    }
+  }
+  .bottom-content {
+    transition: all .2s;
+    @include media-breakpoint-up(lg) {
+      opacity: 0;
+      visibility: hidden;
+      transition: all .2s;
+    }
+  }
+}
+
+/* Card Bg Img */
+.card-bg-img {
+  .card-img-top {
+    height: auto;
+    @include media-breakpoint-up(xl) {
+      height: 450px !important;
+    }
+    @include media-breakpoint-up(md) {
+      height: 400px;
+    }
+  }
+}
+
+/* Meta Post */
+.meta-post-sm {
+  .meta-tag {
+    font-size: 12px;
+  }
+}

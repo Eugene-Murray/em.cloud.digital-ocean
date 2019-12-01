@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- SITE TITTLE -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@@title</title>
+
+    <!-- Plugins css Style -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/plugins/no-ui-slider/nouislider.min.css" rel="stylesheet" />
+    <link href="assets/plugins/owl-carousel/owl.carousel.min.css" rel="stylesheet" media="screen">
+    <link href="assets/plugins/owl-carousel/owl.theme.default.min.css" rel="stylesheet" media="screen">
+    <link href="assets/plugins/fancybox/jquery.fancybox.min.css" rel="stylesheet" />
+    <link href="assets/plugins/fancybox/fancyMorph.css" rel="stylesheet" />
+    <link href="assets/plugins/isotope/isotope.min.css" rel="stylesheet" />
+    <link href="assets/plugins/animate/animate.css" rel="stylesheet">
+    <link href="assets/plugins/select2/css/select2.min.css" rel="stylesheet">
+    <link href="assets/plugins/daterangepicker/css/daterangepicker.css" rel="stylesheet">
+    <link href="assets/plugins/revolution/css/settings.css" rel="stylesheet">
+
+    <!-- GOOGLE FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,600,700' rel='stylesheet'>
+
+    <!-- CUSTOM CSS -->
+    <link href="assets/css/star.css" id="option_style" rel="stylesheet">
+
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>     
+
+<body id="body" class="up-scroll" data-spy="scroll" data-target=".element-right-sidebar">
+
+  <!-- ====================================
+  ——— HEADER
+  ===================================== -->
+  <header class="header header-absolute" id="pageTop">
+   
+    <!-- Navbar -->
+    <nav class="navbar navbar-light navbar-expand-md navbar-scrollUp navbar-sticky">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo-color-big.png" alt="logo-img">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar bar-1"></span>
+          <span class="icon-bar bar-2"></span>
+          <span class="icon-bar bar-3"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle @@if (parents === 'home') { active }" href="javascript:void(0)" role="button"
+                data-toggle="dropdown">
+                Home
+              </a>
+            
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item @@if(active === 'home-main') { active }" href="index.html">Home main</a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item @@if(active === 'home-city') { active }" href="index-2.html">Home city</a>
+                </li>
+            
+                <li>
+                  <a class="dropdown-item @@if(active === 'home-destination') { active }" href="index-3.html">Home destination</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown mega-dropdown">
+              <a class="nav-link dropdown-toggle @@if (parents === 'menu') { active }" href="javascript:void(0)"
+                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tours
+              </a>
+              <div class="dropdown-menu row">
+                <div class="col-12 col-md-4">
+                  <ul class="list-unstyled">
+                    <li>Tour Packages Grid View</li>
+
+                    <li>
+                      <a class="@@if(active === 'packages-grid-left-sidebar') { active }"
+                        href="packages-grid-left-sidebar.html">Packages Sidebar Left</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'packages-grid-right-sidebar') { active }"
+                        href="packages-grid-right-sidebar.html">Packages Sidebar Right</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'packages-grid') { active }"
+                        href="packages-grid.html">Packages 3 Columns</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-12 col-md-4">
+                  <ul class="list-unstyled">
+                    <li>Tour Packages List View</li>
+
+                    <li>
+                      <a class="@@if(active === 'packages-list-left-sidebar') { active }"
+                        href="packages-list-left-sidebar.html">Packages Sidebar Left</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'packages-list-right-sidebar') { active }"
+                        href="packages-list-right-sidebar.html">Packages Sidebar Right</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'packages-list') { active }"
+                        href="packages-list.html">Packages 3 List</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-12 col-md-4">
+                  <ul class="list-unstyled">
+                    <li>Single Package</li>
+
+                    <li>
+                      <a class="@@if(active === 'single-package-left-sidebar') { active }"
+                        href="single-package-left-sidebar.html">Packages Sidebar Left</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'single-package-right-sidebar') { active }"
+                        href="single-package-right-sidebar.html">Packages Sidebar Right</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'single-package-fullwidth') { active }"
+                        href="single-package-fullwidth.html">Packages 3 Fullwidth</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown mega-dropdown">
+              <a class="nav-link dropdown-toggle @@if (parents === 'menu') { active }" href="javascript:void(0)" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Hotels
+              </a>
+              <div class="dropdown-menu row">
+                <div class="col-12 col-md-3">
+                  <ul class="list-unstyled">
+                    <li>Hotels Grid View</li>
+
+                    <li>
+                      <a class="@@if(active === 'hotels-grid-left-sidebar') { active }" href="hotels-grid-left-sidebar.html">Hotels Sidebar Left</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'hotels-grid-right-sidebar') { active }" href="hotels-grid-right-sidebar.html">Hotels Sidebar Right</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'hotels-grid') { active }" href="hotels-grid.html">Hotels 3 Columns</a>
+                    </li>
+                  </ul>
+                </div>
+            
+                <div class="col-12 col-md-3">
+                  <ul class="list-unstyled">
+                    <li>Hotels List View</li>
+
+                    <li>
+                      <a class="@@if(active === 'menu-list-fullwidth') { active }" href="menu-list-fullwidth.html">Hotels Sidebar Left</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'menu-list-left-sidebar') { active }" href="menu-list-left-sidebar.html">Hotels Sidebar Right</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'menu-list-right-sidebar') { active }" href="menu-list-right-sidebar.html">Hotels List</a>
+                    </li>
+                  </ul>
+                </div>
+            
+                <div class="col-12 col-md-3">
+                  <ul class="list-unstyled">
+                    <li>Single Hotel</li>
+
+                    <li>
+                      <a class="@@if(active === 'single-hotel-left-sidebar') { active }" href="single-hotel-left-sidebar.html">Hotels Sidebar Left</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'single-hotel-right-sidebar') { active }" href="single-hotel-right-sidebar.html">Hotels Sidebar Right</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'single-hotel-fullwidth') { active }"
+                        href="single-hotel-fullwidth.html">Hotels Fullwidth</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-12 col-md-3">
+                  <ul class="list-unstyled">
+                    <li>Booking Steps</li>
+                
+                    <li>
+                      <a class="@@if(active === 'booking-1'){ active }" href="booking-1.html">Step 1 - Personal Info</a>
+                    </li>
+                
+                    <li>
+                      <a class="@@if(active === 'booking-2'){ active }" href="booking-2.html">Step 2 - Personal Info</a>
+                    </li>
+                
+                    <li>
+                      <a class="@@if(active === 'booking-3'){ active }" href="booking-3.html">Step 3 - Confirmation</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle @@if (parents === 'pages') { active }" href="javascript:void(0)"
+                role="button" data-toggle="dropdown">
+                Pages
+              </a>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item @@if(active === 'about-us') { active }"
+                    href="about-us.html">About Us</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item @@if(active === 'contact') { active }" href="contact.html">Contact Us</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item
+                    @@if(active === 'gallery-grid') { active } ||
+                    @@if(active === 'gallery-masonry') { active } ||
+                    @@if(active === 'phote-slider') { active }
+                    " href="javascript:void(0)">Gallery<i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  </a>
+
+                  <ul class="sub-menu">
+                    <li><a class="@@if(active === 'gallery-grid') { active } " href="gallery-grid.html">Gallery Grid</a></li>
+                    <li>
+                      <a class="@@if(active === 'gallery-masonry') { active }" href="gallery-masonry.html">Gallery Masonry</a>
+                    </li>
+                    <li>
+                      <a class="@@if(active === 'phote-slider') { active }" href="gallery-grid.html">Photo Slider</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a class="dropdown-item
+                    @@if(active === 'destination-cities') { active } ||
+                    @@if(active === 'single-destination') { active }
+                    " href="javascript:void(0)">Destinations<i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  </a>
+
+                  <ul class="sub-menu">
+                    <li><a class="@@if(active === 'gallery-grid') { active } " href="gallery-grid.html">Destination Cities</a></li>
+                    <li>
+                      <a class="@@if(active === 'gallery-masonry') { active }" href="gallery-masonry.html">Single Destination</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a class="dropdown-item @@if(active === 'pages-404') { active }" href="404-page.html">404 Not Found</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle @@if (parents === 'blog') { active }" href="javascript:void(0)"
+                id="blog" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="blog">
+                <li>
+                  <a class="dropdown-item
+                    @@if(active === 'blog-grid-3-col'){ active } ||
+                    @@if(active === 'blog-grid-2-col'){ active }
+                  " href="javascript:void(0)">Blog Grid View<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+
+                  <ul class="sub-menu">
+                    <li>
+                      <a class="@@if(active === 'blog-grid-3-col'){ active }" href="blog-grid-3-col.html">Blog Grid 3 Col</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'blog-list-view'){ active }"
+                        href="blog-grid-2-col.html">Blog Grid 2 Col</a>
+                      </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a class="dropdown-item
+                    @@if(active === 'blog-list-left-sidebar'){ active } ||
+                    @@if(active === 'blog-list-right-sidebar'){ active } ||
+                    @@if(active === 'blog-list-fullwidth'){ active }" href="javascript:void(0)">Blog List View<i
+                      class="fa fa-chevron-right" aria-hidden="true"></i></a>
+
+                  <ul class="sub-menu">
+                    <li>
+                      <a class="@@if(active === 'blog-list-left-sidebar'){ active }"
+                        href="blog-list-right-sidebar.html">Blog List Left Sidebar</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'blog-list-right-sidebar'){ active }"
+                        href="blog-list-left-sidebar.html">Blog List Right Sidebar</a>
+                    </li>
+
+                    <li>
+                      <a class="@@if(active === 'blog-list-fullwidth'){ active }"
+                        href="blog-list-fullwidth.html">BlogList List Fullwidth</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a class="dropdown-item
+                    @@if(active === 'blog-single-fullwidth'){ active } ||
+                    @@if(active === 'blog-single-left-sidebar'){ active }
+                  " href="javascript:void(0)">Single Blog Post<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+
+                  <ul class="sub-menu">
+                    <li>
+                      <a class="@@if(active === 'blog-single-fullwidth'){ active }"
+                        href="blog-single-fullwidth.html">Right Sidebar</a>
+                   </li>
+
+                    <li>
+                      <a class="@@if(active === 'blog-single-left-sidebar'){ active }"
+                        href="blog-single-left-sidebar.html">Left Sidebar</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle @@if (parents === 'chef') { active }" href="javascript:void(0)"
+                id="stores" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Admin
+              </a>
+
+              <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="stores">
+                <li>
+                  <a class="dropdown-item @@if(active === 'dashboard') { active }" href="dashboard.html">Dashboard</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item @@if(active === 'booking') { active }" href="booking.html">Booking</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item @@if(active === 'profile') { active }" href="profile.html">Profile</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item @@if(active === 'setting') { active }" href="setting.html">Settings</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item @@if(active === 'signup') { active }" href="signup.html">Signup</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item @@if(active === 'login') { active }" href="login.html">Login</a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link @@if(parents === 'components') { active }" href="components.html">
+                components
+              </a>
+            </li>
+
+            <li class="navbar-btn">
+              <a class="btn btn-primary"
+                href="javascript:void(0)">Book Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="main-wrapper @@active">

@@ -1,0 +1,43 @@
+/* Pagination */
+.pagination {
+  margin-bottom: 0;
+  .page-item {
+    &:first-child,
+    &:last-child {
+      .page-link {
+        border: 1px solid #dedede;
+        margin: 0;
+        @include media-breakpoint-up(md) {
+          padding: 0.5rem 1.3rem;
+        }
+        &:hover {
+          color: $white;
+          background-color: $primary;
+          border-color: $primary;
+        }
+      }
+    }
+    .page-link {
+      color: $pagination-color;
+      background-color: $pagination-bg;
+      border: $pagination-hover-border-color;
+      border-radius: $pagination-border-radius;
+      text-transform: uppercase;
+      transition: all 0.3s;
+      font-size: 10px;
+      font-weight: 500;
+        @include media-breakpoint-up(md) {
+        font-size: $pagination-font-size;
+        font-weight: $pagination-font-weight;
+        margin: 0 1px;
+      }
+      &:hover {
+        color: $pagination-hover-color;
+      }
+      &.active {
+        color: $pagination-active-color;
+        cursor: default;
+      }
+    }
+  }
+}

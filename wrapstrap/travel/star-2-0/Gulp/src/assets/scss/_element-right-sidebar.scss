@@ -1,0 +1,14 @@
+/* Right Sidebar */
+.element-right-sidebar {
+  min-width: 215px;
+  &.sidebar-fixed {
+    position: fixed;
+    top: 110px;
+    bottom: 0;
+  }
+  &.right-sidebar-absolute {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+  }
+}

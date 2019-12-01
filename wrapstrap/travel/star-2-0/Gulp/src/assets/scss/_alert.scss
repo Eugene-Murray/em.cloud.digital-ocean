@@ -1,0 +1,176 @@
+// Cutom Alert
+.alert-confirm {
+  padding: 0;
+  border-left: 0;
+  i {
+    border-radius: 4px 0 0 4px;
+    font-size: 20px;
+    color: $white;
+    padding: 35px 15px;
+    width: 50px;
+    text-align: center;
+  }
+  > span {
+    padding-left: 15px;
+    padding-right: 80px;
+    line-height: 20px;
+    @include media-breakpoint-up(lg) {
+      font-size: 16px !important;
+    }
+  }
+  .close {
+    text-shadow: none;
+    opacity: 1;
+    z-index: 1;
+    &:hover {
+      color: inherit;
+    }
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  > span, .close {
+     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 11px;
+    transition: all .4s;
+    @include media-breakpoint-up(md) {
+      font-size: 14px;
+    }
+  }
+  &.alert-success {
+    i {
+      background-color: $success;
+    }
+    .close {
+      color: $success;
+    }
+  }
+  &.alert-danger {
+    i {
+      background-color: $danger;
+    }
+    .close {
+      color: $danger;
+    }
+  }
+  &.alert-primary {
+    i {
+      background-color: $primary;
+    }
+    .close {
+      color: $primary;
+    }
+  }
+  &.alert-warning {
+    i {
+      background-color: $warning;
+    }
+    .close {
+      color: $warning;
+    }
+  }
+  &.alert-info {
+    i {
+      background-color: $info;
+    }
+    .close {
+      color: $info;
+    }
+  }
+}
+
+.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
+  opacity: 1;
+}
+
+.alert-default {
+  padding: 0;
+  border-left: 0;
+  i {
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+    color: $white;
+    padding: 25px 0;
+    text-align: center;
+    opacity: 0;
+    width: -webkit-fill-available;
+    @include media-breakpoint-up(md) {
+      opacity: 1;
+      width: 50px;
+      padding: 37px 0;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 16px;
+    }
+  }
+  > span {
+    padding-left: 9px;
+    padding-right: 65px;
+    line-height: 20px;
+    @include media-breakpoint-up(md) {
+      padding-left: 25px;
+      padding-right: 80px;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 16px !important;
+    }
+  }
+  .close {
+    text-shadow: none;
+    opacity: 1;
+    z-index: 1;
+    padding: 0.75rem .7rem;
+    @include media-breakpoint-up(md) {
+      padding: 0.75rem 1.25rem;
+    }
+    &:hover {
+      color: inherit;
+    }
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  > span, .close {
+     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 11px;
+    transition: all .4s;
+    @include media-breakpoint-up(md) {
+      font-size: 14px;
+    }
+  }
+  &.alert-success {
+    i {
+      background-color: $success;
+    }
+  }
+  &.alert-danger {
+    i {
+      background-color: $danger;
+    }
+  }
+  &.alert-primary {
+    i {
+      background-color: $primary;
+    }
+  }
+  &.alert-warning {
+    i {
+      background-color: $warning;
+    }
+  }
+  &.alert-info {
+    i {
+      background-color: $info;
+    }
+  }
+}
+
+.alert-dismissible .close {
+  outline: 0;
+}

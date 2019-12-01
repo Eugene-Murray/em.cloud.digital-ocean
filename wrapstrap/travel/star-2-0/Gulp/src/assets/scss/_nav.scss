@@ -1,0 +1,197 @@
+/* Nav Custom */
+.video-tab {
+  position: relative;
+  top: -50px;
+  margin-bottom: 35px;
+  @include media-breakpoint-up(md) {
+    width: 70%;
+    left: 50%;
+    top: -129px;
+    transform: translateX(-50%);
+    margin-bottom: 0;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 100%;
+    left: 0;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+  }
+  .content {
+    .tab-heading {
+      h2 {
+        color: $white;
+        font-size: 19px;
+        span {
+          @include media-breakpoint-up(lg) {
+            display: block;
+            font-size: 25px;
+          }
+        }
+        @include media-breakpoint-up(md) {
+          font-size: 25px;
+        }
+         @include media-breakpoint-up(lg) {
+          font-size: 32px;
+        }
+      }
+    }
+    .tab-features {
+      background-color: $white;
+      border-radius: 5px;
+      .nav-tabs {
+        border-bottom: 0;
+        .nav-item {
+          width: 25%;
+          .nav-link {
+            padding: 13px 0;
+            border: 1px solid #dedede;
+            border-top-width: 2px;
+            border-top-color: transparent;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            &.first-child {
+              border-left-color: transparent;
+            }
+            &.last-child {
+              border-right-color: transparent;
+            }
+            @include media-breakpoint-up(md) {
+              padding: 20px 0;
+            }
+            i {
+              font-size: 20px;
+              color: $gray-color;
+              @include media-breakpoint-up(md) {
+                font-size: 25px;
+              }
+              @include media-breakpoint-up(lg) {
+                font-size: 30px;
+              }
+            }
+            span {
+              font-size: 12px;
+              color: $gray-color;
+              @include media-breakpoint-up(md) {
+                font-size: 14px;
+              }
+            }
+            &.active {
+              i {
+                color: $primary;
+              }
+              span {
+                color: $dark;
+              }
+              border-top-color: $primary;
+              border-bottom-color: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Destination Tabs */
+.destination-tabs {
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: -webkit-fill-available;
+  margin-bottom: 30px;
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .nav-item {
+    @include media-breakpoint-up(md) {
+      margin: 0;
+    }
+    .nav-link {
+      color: $dark;
+      text-transform: uppercase;
+      border: transparent;
+      display: inline-block;
+      position: relative;
+      background-color: transparent;
+      z-index: 1;
+      &:before {
+        position: absolute;
+        content: '';
+        width: 0;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        border-radius: inherit;
+        transition: all 300ms ease-out;
+        border-bottom: 3px solid $primary;
+        opacity: 0;
+      }
+      &.active,
+      &:hover {
+        cursor: pointer;
+        &:before {
+          width: 100%;
+          opacity: 1;
+        }
+      }
+      &.active {
+        &:hover {
+          cursor: default;
+        }
+      }
+      @include media-breakpoint-up(md) {
+        padding: 10px 15px;
+      }
+      @include media-breakpoint-up(lg) {
+        padding: 10px 13px;
+        margin-bottom: 0;
+      }
+      @include media-breakpoint-up(lg) {
+        padding: 10px 15px;
+    	}
+    }
+    &:last-child {
+      padding: 10px 15px;
+    }
+  }
+}
+
+/* Blog Tabs */
+.blog-tabs {
+  border-bottom: transparent;
+  flex-direction: column;
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+  }
+  .nav-item {
+    margin-bottom: 4px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 0;
+      margin-right: 4px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    .nav-link {
+      color: $dark;
+      border-color: $light-gray;
+      border-radius: 4px;
+      @include media-breakpoint-up(md) {    
+        border-radius: 0;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+      }
+      &.active,
+      &:hover {
+        border-color: $light-gray $light-gray $smoke;
+        background-color: $smoke; 
+      }
+      &.active {
+        cursor: default;
+      }
+    }
+  }
+}

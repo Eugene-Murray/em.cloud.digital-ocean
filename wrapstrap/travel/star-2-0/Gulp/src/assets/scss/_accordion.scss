@@ -1,0 +1,69 @@
+/* Accordion */
+.accordion {
+  .card:not(:first-of-type):not(:last-of-type) {
+    border: 0;
+  }
+  .card:first-of-type {
+    border: 0;
+  }
+  .card:last-of-type {
+    border: 0;
+  }
+  .card {
+    border-radius: 0;
+    margin-bottom: 0.9375rem;
+    background-color: transparent;
+    .card-header {
+      padding: 0;
+      border-bottom: 1px solid transparent;
+      background-color: transparent;
+      h5 {
+        cursor: pointer;
+        margin-bottom: 0;
+        font-family: $font-family-base;
+        font-weight: 700;
+        color: $gray-color;
+        font-size: 13px;
+        padding: 0.75rem 2.1875rem 0.75rem 0;
+        text-transform: uppercase;
+        position: relative;
+        span {
+          display: block;
+        }
+        &.icon-bg {
+          position: relative;
+          border-bottom: 1px solid #e5e5e5;
+          background-color: transparent;
+          transition: all .3s;
+          &:before {
+            position: absolute;
+            top: 50%;
+            font-family: 'FontAwesome';
+            font-style: normal;
+            font-size: .8125rem;
+            font-weight: 400;
+            padding: .125rem 0.187rem;
+            transform: translateY(-50%) rotate(0deg);
+            content: '\f068';
+            right: 0;
+            color: $gray-color;
+          }
+          &.collapsed {
+            background-color: transparent;
+            color: $gray-color;
+            border-bottom: 1px solid transparent;
+            transition: all .3s;
+            &:before {
+              transform: translateY(-50%) rotate(0deg);
+              color: $gray-color;
+              content: '\f067';
+            }
+          }
+        }
+      }
+    }
+    .card-body {
+      padding: 1.875rem 0 0;
+    }
+  }
+}

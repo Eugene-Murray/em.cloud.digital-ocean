@@ -5,7 +5,7 @@ import { Alert } from './interfaces/alert.interface';
 
 @Injectable()
 export class WebHooksService {
-  constructor(@Inject('ALERT_MODEL') private readonly alertModel: Model<Alert>) {}
+  constructor(@Inject('WEB_HOOK_MODEL') private readonly alertModel: Model<Alert>) {}
 
   async create(createAlertDto: CreateAlertDto): Promise<Alert> {
     const createdAlert = new this.alertModel(createAlertDto);

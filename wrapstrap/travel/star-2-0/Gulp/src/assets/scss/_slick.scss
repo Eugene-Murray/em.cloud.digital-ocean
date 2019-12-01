@@ -1,0 +1,130 @@
+/* Slick Slider */
+.gallery-slider {
+	.slick-prev,
+	.slick-next {
+		display: none !important;
+		@include media-breakpoint-up(md) {
+			display: block !important;
+		}
+	}
+	.slick-prev {
+    left: 0;
+    z-index: 1;
+		@include media-breakpoint-up(md) {
+			left: -60px;
+		}
+		@include media-breakpoint-up(lg) {
+			left: -80px;
+		}
+		&:before {
+			content: "\f053";
+			font-family: 'FontAwesome';
+			color: $primary;
+			font-size: 25px;
+			display: block;
+			@include media-breakpoint-up(md) {
+        display: block;
+        color: #a5a5a5;
+			}
+		}
+	}
+	.slick-next {
+		right: 0px;
+    z-index: 1;
+		@include media-breakpoint-up(md) {
+			right: -60px;
+		}
+		@include media-breakpoint-up(lg) {
+			right: -80px;
+		}
+		&:before {
+			content: "\f054";
+			font-family: 'FontAwesome';
+			color: $primary;
+			font-size: 25px;
+			display: block;
+			@include media-breakpoint-up(md) {
+        display: block;
+        color: #a5a5a5;
+			}
+		}
+	}
+	.item {
+    margin: 0;
+    outline: 0;
+    z-index: 0 !important;
+    transform: scale(1) rotate(0);
+		@include media-breakpoint-up(md) {
+			transform: scale(.8) rotate(0);
+			opacity: 0.3;
+			margin: 0px -100px;
+			transition: transform 0.4s ease;
+		}
+		.slick-img {
+			img {
+				margin: 0 auto;
+				width: 100%;
+				@include media-breakpoint-up(md) {
+					width: 525px;
+				}
+				@include media-breakpoint-up(lg) {
+					width: 725px;
+				}
+				@include media-breakpoint-up(xl) {
+					width: auto;
+				}
+			}
+		}
+		&.slick-active {
+			transform: scale(1) rotate(0);
+			position: relative;
+			opacity: 1;
+			z-index: 1 !important;
+			.slick-img {
+				img {
+					@include media-breakpoint-up(md) {
+						border: 5px solid $primary !important;
+						border-radius: 3px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// BRAND SLIDER SECTION
+	.brand-slider {
+		.item {
+			outline: 0;
+		}
+		.slick-prev {
+			z-index: 1;
+			left: 0;
+			&:before {
+				font-family: 'FontAwesome';
+				content: "\f104";
+				color: #a5a5a5;
+				font-size: 25px;
+			}
+		}
+		.slick-next {
+			z-index: 1;
+			right: 0;
+			&:before {
+				content: "\f105";
+				font-family: 'FontAwesome';
+				color: #a5a5a5;
+				font-size: 25px;
+			}
+		}
+		.slick-list {
+			.slick-track {
+				.slick-slide {
+					img {
+						margin: 0 auto;
+					}
+				}
+			}
+		}
+	}
+

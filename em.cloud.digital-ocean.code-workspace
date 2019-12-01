@@ -31,8 +31,16 @@
 			"path": "wrapstrap"
 		},
 		{
+			"path": "em.cloud.eugenemurray.sapper.app"
+		},
+		{
+			"path": "em.cloud.sanistore.sapper.app"
+		},
+		{
 			"path": "svelte-social-auth"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wrapstrap"
+	}
 }

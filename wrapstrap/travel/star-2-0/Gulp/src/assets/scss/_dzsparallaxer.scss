@@ -1,0 +1,84 @@
+// dzsparallaxer
+.dzsparallaxer:not(.mode-oneelement) {
+  transition-duration: 0.9s;
+}
+
+// Paralax Target
+.dzsparallaxer.use-loading .dzsparallaxer--target {
+  transition-duration: 0.9s;
+}
+
+// Paralax Container
+.paralax-container {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all .9s;
+}
+
+/* Promotion Paralax */
+.promotion-paralax {
+  height: 403px !important;
+  transition: all .9s;
+}
+
+/* Countup Paralax */
+.counterup-paralax {
+  height: 550px !important;
+  transition: all .9s;
+  @include media-breakpoint-up(md) {
+    height: 452px !important;
+  }
+}
+
+/* City Paralax */
+.city-paralax {
+  height: 440px !important;
+  @include media-breakpoint-up(md) {
+    height: 359px !important;
+  }
+}
+
+/* White Paralax */
+.white-paralax {
+  height: 600px !important;
+  @include media-breakpoint-up(md) {
+    height: 450px !important;
+  }
+}
+
+/* Signup Paralax */
+.signup-paralax {
+  height: 450px !important;
+  @include media-breakpoint-up(md) {
+    height: 400px !important;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 386px !important;
+  }
+}
+
+/* City Paralax */
+.travel-paralax {
+  height: 600px !important;
+  @include media-breakpoint-up(md) {
+    height: 524px !important;
+  }
+}
+
+/* Video Paralax */
+.video-paralax {
+  height: 350px !important;
+  @include media-breakpoint-up(md) {
+    height: 550px !important;
+  }
+}
+
+/* Video Paralax */
+.sale-paralax {
+  height: 400px !important;
+  // @include media-breakpoint-up(md) {
+  //   height: 550px !important;
+  // }
+}

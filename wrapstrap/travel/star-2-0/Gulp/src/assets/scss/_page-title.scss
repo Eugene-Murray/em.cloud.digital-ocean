@@ -1,0 +1,43 @@
+// Page Title
+.page-title {
+  padding-top: 94px;
+  @include media-breakpoint-up(lg) {
+    padding-top: 0;
+  }
+  .page-title-img {
+    background-size: cover !important;
+    background-position: center top !important;
+    background-repeat: no-repeat;
+    transition: all 0.3s linear;
+    position: relative;
+  }
+  .page-title-content {
+    text-align: center;
+    position: relative;
+    h2 {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 0;
+      line-height: inherit;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  .title-border {
+    h2 {
+      margin-bottom: 23px;
+    }
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 60px;
+      height: 3px;
+      background-color: $white;
+      left: 50%;
+      bottom: -12px;
+      transform: translateX(-50%);
+    }
+  }
+}

@@ -1,0 +1,200 @@
+/* Progres Wizard */
+.progress-wizard {
+	margin: 0 -10px 0;
+	@include media-breakpoint-up(md) {
+		margin: 0;
+	}
+	> .progress-wizard-step {
+		padding: 0;
+		position: relative;
+		@include media-breakpoint-up(md) {
+			margin-bottom: 0;
+		}
+		> .progress {
+			position: relative;
+			border-radius: 0;
+			height: 2px;
+			box-shadow: none;
+			margin: 0;
+			background-color: #dedede;
+			top: 50%;
+			> .progress-bar {
+				box-shadow: none;
+				background-color: $primary;
+				@include media-breakpoint-up(md) {
+          background-color: $primary;
+        }
+			}
+		}
+		&.complete {
+			> .progress {
+				> .progress-bar {
+					width:100%;
+				}
+			}
+		}
+		&.active {
+			> .progress {
+				> .progress-bar {
+					width:50%;
+				}
+			}
+		}
+	}
+}
+
+.progress-wizard {
+	> .progress-wizard-step {
+		> .progress {
+			> .progress-bar {
+				width:0%;
+			}
+		}
+	}
+}
+
+.progress-wizard {
+	> .progress-wizard-step:first-child.active {
+		> .progress {
+			> .progress-bar {
+				width:0%;
+			}
+		}
+	}
+}
+
+.progress-wizard {
+	> .progress-wizard-step:last-child.active {
+		> .progress {
+			> .progress-bar {
+				width: 100%;
+			}
+		}
+	}
+}
+
+.progress-wizard {
+	> .progress-wizard-step:first-child  {
+		> .progress {
+			left: 50%;
+			width: 50%;
+		}
+	}
+}
+
+.progress-wizard {
+	> .progress-wizard-step:last-child  {
+		> .progress {
+			width: 50%;
+		}
+	}
+}
+
+.progress-wizard {
+	> .progress-wizard-step.disabled {
+		a.progress-wizard-dot {
+			pointer-events: none;
+		}
+	}
+}
+
+.progress {
+  background-color: transparent;
+	margin-bottom: 10px;
+  @include media-breakpoint-up(md) {
+    background-color: #dedede;
+  }
+}
+
+.progress-wizard {
+	> .progress-wizard-step {
+		> .progress-wizard-dot {
+			display: block;
+			background-color: $white;
+      border-radius: 7px;
+      border: 2px solid #ededed;
+			text-align: center;
+			color: $gray-color;
+			width: 85%;
+			height: 60px;
+			position: relative;
+			margin: auto;
+      top: 0;
+			left: 0;
+			transition: all .4s;
+			@include media-breakpoint-up(md) {
+				width: 203px;
+				height: 102px;
+				border-radius: 10px;
+				margin: 0;
+				left: 50%;
+    		transform: translateX(-50%);
+			}
+			.progress-wizard-content {
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+				i {
+					font-size: 13px;
+					transition: all .4s;
+					@include media-breakpoint-up(md) {
+						margin-bottom: 15px;
+						font-size: 20px;
+					}
+				}
+				span {
+					font-size: 10px;
+					font-weight: 500;
+					transition: all .4s;
+					@include media-breakpoint-up(md) {
+						font-size: 14px;
+						font-weight: 400;
+					}
+				}
+			}
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.progress-wizard {
+	> .progress-wizard-step.active {
+		> .progress-wizard-dot {
+			border-color: $primary;
+			color: $dark;
+		}
+	}
+}
+
+.progress-wizard {
+	> .progress-wizard-step.incomplete {
+		> .progress-wizard-dot {
+			i {
+				color: $dark;
+			}
+		}
+	}
+}
+
+.progress-wizard {
+	> .progress-wizard-step.complete {
+		> .progress-wizard-dot {
+			background-color: $primary;
+			border-color: $primary;
+			i, span {
+				color: $white;
+			}
+		}
+	}
+}
+
+.progress-wizard {
+	.progress-info {
+		text-align: center;
+		font-weight: 600;
+		font-size: 1rem;
+		color: $dark;
+	}
+}

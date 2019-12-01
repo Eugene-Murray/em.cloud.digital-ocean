@@ -1,0 +1,145 @@
+// Grid containers
+$container-max-widths: (
+  sm: 540px,
+  md: 750px,
+  lg: 970px,
+  xl: 1170px
+);
+
+// Others Colors
+$primary:         #ee4735;
+$warning:         #fec701;
+$success:         #60a662;
+$success-light:   #1cd066;
+$info:            #1ab3e8;
+$danger:          #e25a5a;
+$black:           #000;
+$dark:            #222;
+$dark-light:      #262a2e;
+$stone:           #232629;
+$gray-color:      #969696;
+$gray-dark:       #565b61;
+$smoke:           #f5f5f5;
+$off-white:       #dedede;
+$light-gray:      #eee;
+$facebook:        #6684c4;
+$alert-color-level:                 3 !default;
+
+// Theme Color
+$theme-colors: (
+  "primary":          $primary,
+  "warning":          $warning,
+  "success":          $success,
+  "success-light":    $success-light,
+  "info":             $info,
+  "danger":           $danger,
+  "black":            $black,
+  "dark":             $dark,
+  "dark-light":       $dark-light,
+  "stone":            $stone,
+  "gray-color":       $gray-color,
+  "gray-dark":        $gray-dark,
+  "smoke":            $smoke,
+  "off-white":        $off-white,
+  "light-gray":       $light-gray,
+  "facebook":         $facebook,
+);
+
+// Fonts
+$font-family-base:        'Montserrat', sans-serif;
+$headings-font-weight:     400;
+$font-weight-medium:       500;
+$font-weight-semibold:     600;
+
+// Font Size
+$font-size-base:              .875rem; // 14px
+$h1-font-size: $font-size-base * 2.15; // 30px
+$h2-font-size: $font-size-base * 1.86; // 26px
+$h3-font-size: $font-size-base * 1.43; // 20px
+$h4-font-size: $font-size-base * 1.29; // 18px
+$h5-font-size: $font-size-base * 1.15; // 16px
+$h6-font-size: $font-size-base * 1;    // 14px
+$small-font-size:              83%;
+
+// display size value-keyword-case
+$display4-size:               2.85rem;
+
+// Space
+$spacer: 1rem ;
+$spacers: ();
+$spacers:(
+  0: 0,
+  1: ($spacer * .31),
+  2: ($spacer * .63),
+  3: $spacer,
+  4: ($spacer * 1.25),
+  5: ($spacer * 1.56),
+  6: ($spacer * 1.88),
+  7: ($spacer * 3.13),
+  8: ($spacer * 3.75),
+  9: ($spacer * 4.96),
+  10: ($spacer * 6.25),
+);
+
+// Buttons
+$border-radius:            .25rem !default;
+$border-radius-lg:         .5rem;
+$input-btn-font-size:      0.875rem;
+$btn-padding-x:            1.8125rem;
+$input-btn-padding-y:      0.6rem;
+$input-padding-y:          0.7rem;
+$btn-focus-box-shadow:     none !important;
+$btn-transition:           all .3s;
+$btn-line-height:          1.5rem;
+$btn-border-radius-sm:     .25rem;
+$btn-padding-x-lg:         1.6rem;
+$input-btn-padding-y-lg:   0.8rem;
+$btn-font-size-lg:         $font-size-base * 1.28571;
+$input-btn-font-size-lg:   $font-size-base;
+$input-btn-font-size-sm:   $font-size-base;
+$btn-border-radius-lg:     $border-radius;
+$btn-padding-x-sm:         1.45rem;
+$input-btn-padding-x-sm:  .7rem !default;
+$input-btn-padding-y-sm:  .4rem;
+$btn-font-size-xs:        .8125rem;
+$btn-padding-x-xs:        .6rem;
+$btn-padding-y-xs:        .56rem;
+$btn-line-height-xs:       1rem;
+$btn-line-height-sm:       1.5rem !default;
+
+// Card
+$card-border-width:         0;
+$card-border-radius:        $border-radius;
+$card-border-color:         transparent;
+$card-spacer-x:             1.5rem;
+$card-inner-border-radius:  $card-border-radius;
+$card-cap-bg:               rgba($black, .06);
+
+//Pagination
+$pagination-padding-x:             .8rem;
+$pagination-border-radius:         $border-radius;
+$pagination-color:                 $dark;
+$pagination-hover-color:           $primary;
+$pagination-active-color:          $pagination-hover-color;
+$pagination-bg:                    transparent;
+$pagination-hover-bg:              transparent;
+$pagination-hover-border-color:    transparent;
+$pagination-hover-border-color:    transparent;
+$pagination-active-border-color:   transparent;
+$pagination-font-size:             $font-size-base;
+$pagination-font-weight:           normal;
+$pagination-focus-outline:         none;
+$pagination-focus-box-shadow:      none;
+
+// Shadow
+$box-shadow: 0 3px 10px rgba($black, .1);
+
+// modal
+$modal-sm:                          400px;
+
+// Table
+$table-hover-bg: #fff9f4;
+
+// hr
+$hr-margin-y: 2rem;
+$hr-border-color:             rgba($black, .07) !default;
