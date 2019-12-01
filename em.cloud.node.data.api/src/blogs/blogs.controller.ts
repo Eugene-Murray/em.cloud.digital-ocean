@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param } from '@nestjs/common';
 import { CreateBlogPostDto } from './dto/create-blog-post.dto';
 import { BlogsService } from './blogs.service';
 import { BlogPost } from './interfaces/blog-post.interface';
@@ -17,13 +17,20 @@ export class BlogsController {
     return this.blogsService.findAll();
   }
 
-  // @Get()
-  // async findAllBySite(site: string): Promise<BlogPost[]> {
-  //   return this.blogsService.findAllBySite(site);
-  // }
+  @Get('/site/:site')
+  async findAllBySite(@Param('site') siteName): Promise<BlogPost[]> {
+    console.warn('findAllBySite()', siteName);
+    return this.blogsService.findAllBySite(siteName);
+  }
 
-  // @Get()
-  // async findPostBySiteAndSlug(site: string, slug: string): Promise<BlogPost[]> {
-  //   return this.blogsService.findPostBySiteAndSlug(site, slug);
-  // }
+  @Get(':id')
+  async findById(@Param('id') id): Promise<BlogPost> {
+    return this.blogsService.findById(id);
+  }
+
+  @Get('/slug/:slug')
+  async findAllBySlug(@Param('slug') slug): Promise<BlogPost> {
+    console.warn('findAllBySlug()', slug);
+    return this.blogsService.findAllBySlug(slug);
+  }
 }

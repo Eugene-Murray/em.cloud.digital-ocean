@@ -16,4 +16,16 @@ export class BlogsService {
   async findAll(): Promise<BlogPost[]> {
     return await this.blogPostModel.find().exec();
   }
+
+  async findAllBySite(siteName: string): Promise<BlogPost[]> {
+    return await this.blogPostModel.find({ siteName }).exec();
+  }
+
+  async findById(id: any): Promise<BlogPost> {
+    return await this.blogPostModel.findById(id).exec();
+  }
+
+  async findAllBySlug(slug: string): Promise<BlogPost> {
+    return await this.blogPostModel.findOne({ slug });
+  }
 }

@@ -2,7 +2,8 @@
 	export async function preload({ params, query }) {
 		// the `slug` parameter is available because
 		// this file is called [slug].svelte
-		const res = await this.fetch(`blog/${params.slug}.json`);
+		//const res = await this.fetch(`blog/${params.slug}.json`);
+		const res = await this.fetch(`https://emcloud.solutions/api/blogs/slug/${params.slug}`);
 		const data = await res.json();
 
 		if (res.status === 200) {
