@@ -4,5 +4,6 @@ export class CreateBlogPostDto {
   readonly site: CreateSiteDto;
   readonly title: string;
 	readonly slug: string;
-	readonly html: string;
+  readonly html: string;
+  dateTime: Date;
 }

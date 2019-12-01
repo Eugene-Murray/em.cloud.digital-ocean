@@ -1,5 +1,7 @@
 <script>
+	import Header from '../components/Header.svelte';
 	import Nav from '../components/Nav.svelte';
+	import Footer from '../components/Footer.svelte';
 
 	export let segment;
 </script>
@@ -32,12 +34,11 @@
 
 </style>
 
-<Nav {segment}/>
+<Header />
+<!-- <Nav {segment}/> -->
 
 <main>
 	<slot></slot>
 </main>
 
-<footer> 
-adventureHop
- </footer>
+<Footer />

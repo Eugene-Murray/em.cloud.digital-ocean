@@ -16,4 +16,14 @@ export class BlogsController {
   async findAll(): Promise<BlogPost[]> {
     return this.blogsService.findAll();
   }
+
+  // @Get()
+  // async findAllBySite(site: string): Promise<BlogPost[]> {
+  //   return this.blogsService.findAllBySite(site);
+  // }
+
+  // @Get()
+  // async findPostBySiteAndSlug(site: string, slug: string): Promise<BlogPost[]> {
+  //   return this.blogsService.findPostBySiteAndSlug(site, slug);
+  // }
 }

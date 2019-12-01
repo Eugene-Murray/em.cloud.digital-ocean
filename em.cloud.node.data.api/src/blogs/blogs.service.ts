@@ -8,6 +8,7 @@ export class BlogsService {
   constructor(@Inject('BLOG_POST_MODEL') private readonly blogPostModel: Model<BlogPost>) {}
 
   async create(createBlogPostDto: CreateBlogPostDto): Promise<BlogPost> {
+    createBlogPostDto.dateTime = new Date();
     const createdBlogPost = new this.blogPostModel(createBlogPostDto);
     return await createdBlogPost.save();
   }
