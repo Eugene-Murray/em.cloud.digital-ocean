@@ -1,9 +1,11 @@
-import { Document } from 'mongoose';
-
 import * as mongoose from 'mongoose';
 
 export const AlertSchema = new mongoose.Schema({
-    symbol: String,
-    chartTimeFrame: String,
-    alertTime: String,
+  alertGroup: Number,
+  timeFrame: String,
+  type: String,
+  symbol: String,
+  name: String,
+  direction: String,
+  alertTime: String,
 });
