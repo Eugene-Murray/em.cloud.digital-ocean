@@ -35,6 +35,9 @@
 		},
 		{
 			"path": "em.cloud.sanistore.sapper.app"
+		},
+		{
+			"path": "svelte-social-auth"
 		}
 	],
 	"settings": {

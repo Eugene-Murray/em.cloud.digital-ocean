@@ -9,13 +9,13 @@ import { Widget } from './interfaces/widget.interface';
 export class DashboardController {
   constructor(private readonly dashboardService: DashboardService) {}
 
-  @Post()
-  async create(@Body() createCatDto: CreateWidgetDto) {
-    await this.dashboardService.create(createCatDto);
-  }
+  // @Post()
+  // async create(@Body() createCatDto: CreateWidgetDto) {
+  //   await this.dashboardService.create(createCatDto);
+  // }
 
-  @Get()
-  async findAll(): Promise<Widget[]> {
-    return this.dashboardService.findAll();
-  }
+  // @Get()
+  // async findAll(): Promise<Widget[]> {
+  //   return this.dashboardService.findAll();
+  // }
 }

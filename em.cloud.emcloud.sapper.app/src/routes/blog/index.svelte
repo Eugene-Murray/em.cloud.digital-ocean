@@ -10,7 +10,7 @@
   let blogPosts = []; 
   let posts;
   onMount(async () => {
-    const apiResponse = await fetch("https://emcloud.solutions/api/blogs");
+    const apiResponse = await fetch("https://emcloud.solutions/api/blogs/site/emcloud");
     blogPosts = await apiResponse.json();
     return () => console.log('Destroyed');
   });
