@@ -10,11 +10,11 @@
         <div class="col-md-8">  
             <div class="bestsite-head text-center pt-110 pb-50">
                 <div class="section-title">
-                    <h2>We will provide you best services</h2>
+                    <h2>Services emCloud can help you with</h2>
                 </div>
-                <div class="section-content">
+                <!-- <div class="section-content">
                     <p>But I must explain to you how all this mistaken idea of pain was born and I will give you a complete account of the system.</p>
-                </div>
+                </div> -->
             </div>
         </div>  
         <div class="col-md-2"></div>    
@@ -26,9 +26,9 @@
                     <div class="feature-content feature-top">                              
                         <div class="slide-content">
                             <div class="slide-head">
-                                 <h4>Cloud Hosting</h4>
+                                 <h4>SEO</h4>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Search engine optimization is the process of increasing the quality and quantity of website traffic by increasing the visibility of a website or a web page to users of a web search engine. SEO refers to the improvement of unpaid results and excludes direct traffic/visitors and the purchase of paid placement.</p>
                         </div> 
                         <figure>
                             <div class="feature-image">
@@ -44,9 +44,9 @@
                     <div class="feature-content feature-top">                              
                         <div class="slide-content">
                             <div class="slide-head">
-                                 <h4>App Development</h4>
+                                 <h4>Cloud Hosting</h4>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. The term is generally used to describe data centers available to many users over the Internet.</p>
                         </div> 
                         <figure>
                             <div class="feature-image">
@@ -62,9 +62,9 @@
                     <div class="feature-content feature-top">                              
                         <div class="slide-content">
                             <div class="slide-head">
-                                 <h4>Ui/Ux Design</h4>
+                                 <h4>UI/UX Design</h4>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>User Experience Design is the process of manipulating user behavior through usability, accessibility, and desirability provided in the interaction with a product.</p>
                         </div> 
                         <figure>
                             <div class="feature-image">
@@ -80,9 +80,9 @@
                     <div class="feature-content feature-top">                              
                         <div class="slide-content">
                             <div class="slide-head">
-                                 <h4>Web Development</h4>
+                                 <h4>Full Stack Web Development</h4>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>A full stack developer is a web developer or engineer who works with both the front and back ends of a website or application—meaning they can tackle projects that involve databases, building user-facing websites, or even work with clients during the planning phase of projects.</p>
                         </div> 
                         <figure>
                             <div class="feature-image">

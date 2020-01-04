@@ -60,7 +60,7 @@
 						<div class="card-site pt-80 text-center">
 						  <img src="images/Date-Migration.png" alt="Date-Migration">
 						  <div class="card-body main-card pb-50">
-						    <h5 class="card-title">Design and Development</h5>
+						    <h5 class="card-title">Web Design, Development and SEO</h5>
 						    <p class="card-text">We have experience with web, CMS and eCommerce platforms like Wix, SquareSpace and Shopify, and deep knowledge of custom full stack development building amazing web experiences in the browser and server side apis.</p>
 						  </div>
 						</div>
@@ -69,7 +69,7 @@
 						<div class="card-site card_site_active pt-60 text-center">
 						  <img src="images/cloud-backup.png" alt="Date-Migration">
 						  <div class="card-body main-card pb-50">
-						    <h5 class="card-title">Hosting</h5>
+						    <h5 class="card-title">Cloud Hosting</h5>
 						    <p class="card-text">Wix, SquareSpace and Shopify and custom cloud hosting using Digital Ocean or for more complex requirements using Amazon AWS or Microsoft Azure.</p>
 						  </div>
 						</div>
@@ -97,11 +97,11 @@
 			<div class="offset-md-2 col-md-8">	
 				<div class="bestsite-head text-center pt-150 pb-60">
 					<div class="section-title">
-						<h2>Our Latest Blog</h2>
+						<h2>Latest Blog Posts</h2>
 					</div>
-					<div class="section-content">
+					<!-- <div class="section-content">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
+					</div> -->
 				</div>
 			</div>	
 			<div class="offset-md-2"></div>	
@@ -179,14 +179,17 @@
 			<div class="col-12  col-md-12">
 				<div class="Feedback-logo  pb-50">
 					<ul>
-						<li class="logo-top"><a href="."><img src="images/logo_one.png" alt=""></a></li>
-						<li class="logo-top"><a href="."><img src="images/logo_two.png" alt=""></a></li>
-						<li class="logo-top"><a href="."><img src="images/logo_three.png" alt=""></a></li>
-						<li class="logo-top"><a href="."><img src="images/logo_four.png" alt=""></a></li>
-						<li class="logo-bottom"><a href="."><img src="images/logo_five.jpg" alt=""></a></li>
-						<li class="logo-bottom"><a href="."><img src="images/logo_six.jpg" alt=""></a></li>
-						<li class="logo-bottom"><a href="."><img src="images/logo_seven.jpg" alt=""></a></li>
-						<li class="logo-bottom"><a href="."><img src="images/logo_eight.jpg" alt=""></a></li>			
+						<li class="logo-top"><a href="."><img src="images/clients/hsbc.png" width="50" height="50" alt=""></a></li>
+						<li class="logo-top"><a href="."><img src="images/clients/bp.png" width="50" height="50" alt=""></a></li>
+						<li class="logo-top"><a href="."><img src="images/clients/anglo-american.png" width="50" height="50" alt=""></a></li>
+						<li class="logo-top"><a href="."><img src="images/clients/mizuho.png" width="50" height="50" alt=""></a></li>
+						<li class="logo-top"><a href="."><img src="images/clients/socgen.png" width="50" height="50" alt=""></a></li>
+
+						<li class="logo-top"><a href="."><img src="images/clients/accenture.jpg" width="50" height="50" alt=""></a></li>
+						<li class="logo-top"><a href="."><img src="images/clients/validus.png" width="50" height="50" alt=""></a></li>
+						<li class="logo-top"><a href="."><img src="images/clients/edfandman.png" width="50" height="50" alt=""></a></li>
+						<li class="logo-top"><a href="."><img src="images/clients/fandc_asset.jpg" width="50" height="50" alt=""></a></li>
+						<li class="logo-top"><a href="."><img src="images/clients/amx.png" width="50" height="50" alt=""></a></li>						
 					</ul>
 				</div>
 			</div><!-- End logo section -->
