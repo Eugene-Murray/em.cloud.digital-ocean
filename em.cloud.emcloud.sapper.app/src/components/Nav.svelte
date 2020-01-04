@@ -20,7 +20,8 @@
 					<div class="top-area-left">
 						<div class="left-header-top">
 							<div class="email">
-								<span class="header-top-icon"><i class="fa fa-envelope-o"></i></span><p><a href="mailto:info@emcloud.co">info@emcloud.co</a></p>
+								<span class="header-top-icon"><i class="fa fa-envelope-o"></i></span><p>
+                                <a class="info-link" style="color: #fff !important;" href="mailto:info@emcloud.co">info@emcloud.co</a></p>
 							</div>
 						</div>
 						<div class="middle-header-top">
@@ -149,6 +150,12 @@
                                 <a class='{segment === "services" ? "selected" : ""} nav-link nav-menu' href='services'>Services</a>
                             </li>
                             <li class="nav-item single_nav">
+                                <a class='{segment === "pricing" ? "selected" : ""} nav-link nav-menu' href='pricing'>Pricing</a>
+                            </li>
+                            <li class="nav-item single_nav">
+                                <a class='{segment === "technology" ? "selected" : ""} nav-link nav-menu' href='technology'>Technology</a>
+                            </li>
+                            <li class="nav-item single_nav">
                                 <a class='{segment === "portfolio" ? "selected" : ""} nav-link nav-menu' href='portfolio'>Portfolio</a>
                             </li>
                             <li class="nav-item single_nav">
@@ -181,28 +188,23 @@
                                     <div class="modal-body">
                                         <div class="bar-nav">
                                             <div class="bar-top">
-                                                <h2>Services</h2>
+                                                <h2>Your web dev partner</h2>
                                                 <ul>
-                                                    <li><a href="index.html">Shared Hosting<i class="fa fa-angle-right"></i></a></li>
-                                                    <li><a href="index.html">Reseller Hosting<i class="fa fa-angle-right"></i></a></li>
-                                                    <li><a href="index.html">VPS Hosting<i class="fa fa-angle-right"></i></a></li>
-                                                    <li><a href="index.html">Dedicated Hosting<i class="fa fa-angle-right"></i></a></li>
-                                                    <li><a href="index.html">Domain<i class="fa fa-angle-right"></i></a></li>
-                                                    <li><a href="index.html">Register Domain<i class="fa fa-angle-right"></i></a></li>
-                                                    <li><a href="index.html">Transfer Domain<i class="fa fa-angle-right"></i></a></li>
-                                                    <li><a href="index.html">Client Area<i class="fa fa-angle-right"></i></a></li>
-                                                    <li><a href="index.html">Legal<i class="fa fa-angle-right"></i></a></li>
-                                                    <li><a href="index.html">Blog<i class="fa fa-angle-right"></i></a></li>
-                                                    <li><a href="index.html">About<i class="fa fa-angle-right"></i></a></li>
-                                                    <li><a href="index.html">FaQ<i class="fa fa-angle-right"></i></a></li>
-
+                                                    <li><a href='about'>About<i class="fa fa-angle-right"></i></a></li>
+                                                    <li><a href="services">Services<i class="fa fa-angle-right"></i></a></li>
+                                                    <li><a href="pricing">Pricing<i class="fa fa-angle-right"></i></a></li>
+                                                    <li><a href="technology">Technology<i class="fa fa-angle-right"></i></a></li>
+                                                    <li><a href="portfolio">Portfolio<i class="fa fa-angle-right"></i></a></li>
+                                                    <li><a href="blog">Blog<i class="fa fa-angle-right"></i></a></li>
+                                                    <li><a href="cool-websites">Cool Websites<i class="fa fa-angle-right"></i></a></li>
+                                                    <li><a href="contact">Contact<i class="fa fa-angle-right"></i></a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="bar-contact">
                                             <span>Contact</span>
-                                            <span>+44 7700 900077</span>
-                                            <span>support@hostcox.com</span>
+                                            <span>+44 7969467544</span>
+                                            <span><a href="mailto:info@emcloud.co">info@emcloud.co</a></span>
                                         </div>
 
                                         <div class="bar-icon">

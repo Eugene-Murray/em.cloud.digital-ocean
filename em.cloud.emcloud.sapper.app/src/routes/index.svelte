@@ -46,7 +46,7 @@
 						<h2>Why Choose emCLOUD</h2>
 					</div>
 					<div class="section-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. </p>
+						<p>We have been delevering web solutions both big and small for nearly 20 years.</p>
 					</div>
 				</div>
 			</div>	
@@ -60,8 +60,8 @@
 						<div class="card-site pt-80 text-center">
 						  <img src="images/Date-Migration.png" alt="Date-Migration">
 						  <div class="card-body main-card pb-50">
-						    <h5 class="card-title">Date Migration</h5>
-						    <p class="card-text">Lorem Ipsum is simply dummy text of the printing typesetting the industry's standard.</p>
+						    <h5 class="card-title">Design and Development</h5>
+						    <p class="card-text">We have experience with web, CMS and eCommerce platforms like Wix, SquareSpace and Shopify, and deep knowledge of custom full stack development building amazing web experiences in the browser and server side apis.</p>
 						  </div>
 						</div>
 					</div>
@@ -69,8 +69,8 @@
 						<div class="card-site card_site_active pt-60 text-center">
 						  <img src="images/cloud-backup.png" alt="Date-Migration">
 						  <div class="card-body main-card pb-50">
-						    <h5 class="card-title">Cloud Backup</h5>
-						    <p class="card-text">Lorem Ipsum is simply dummy text of the printing typesetting the industry's standard.</p>
+						    <h5 class="card-title">Hosting</h5>
+						    <p class="card-text">Wix, SquareSpace and Shopify and custom cloud hosting using Digital Ocean or for more complex requirements using Amazon AWS or Microsoft Azure.</p>
 						  </div>
 						</div>
 					</div>
@@ -78,8 +78,8 @@
 						<div class="card-site pt-70 text-center">
 						  <img src="images/Gauarantee.png" alt="Date-Migration">
 						  <div class="card-body main-card pb-50">
-						    <h5 class="card-title">100% Guarantee</h5>
-						    <p class="card-text">Lorem Ipsum is simply dummy text of the printing typesetting the industry's standard.</p>
+						    <h5 class="card-title">Long term support and commitment</h5>
+						    <p class="card-text">You can focus on your business, I will focus on your web dev requirements.</p>
 						  </div>
 						</div>
 					</div>
