@@ -6,17 +6,17 @@
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="footer-title">
 						<img src="images/logo.png" alt="" class="f_logo">
-						<p>We make registering, hosting, and managing domains for yourself or others easy. Because the internet needs people. Bring to the table win-win survival strategies.</p>
+						<p>Your web dev partner - providing full stack design, development, hosting, SEO, eCommerce solutions.</p>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-3">
 					<div class="footer-link">
 						<h3>Quick Links</h3>
 						<ul>
-							<li><a href=".">SEO</a></li>
-							<li><a href=".">UX Design</a></li>
-							<li><a href=".">Development</a></li>
-							<li><a href=".">Cloud Hosting</a></li>
+							<li><a href="technology#seo">SEO</a></li>
+							<li><a href="technology#design">UI/UX Design</a></li>
+							<li><a href="technology#development">Development</a></li>
+							<li><a href="technology#hosting">Cloud Hosting</a></li>
 						</ul>
 					</div>
 				</div>
@@ -24,10 +24,10 @@
 					<div class="company-content">
 						<h3>Company</h3>
 						<ul>
-							<li><a href=".">About</a></li>
-							<li><a href=".">Pricing</a></li>
-							<li><a href=".">Blog</a></li>
-							<li><a href=".">Contact</a></li>
+							<li><a href="about">About</a></li>
+							<li><a href="pricing">Pricing</a></li>
+							<li><a href="blog">Blog</a></li>
+							<li><a href="contact">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -57,7 +57,7 @@
 				</div>
 				<div class="col-md-6 text-right">
 					<ul>
-                        <li><a href="sitemap">Sitemap</a></li>                   
+                        <li><a href="site-map">Sitemap</a></li>                 
 					</ul>
 				</div>
 			</div>

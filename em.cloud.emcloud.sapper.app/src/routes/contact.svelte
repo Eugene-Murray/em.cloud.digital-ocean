@@ -7,17 +7,17 @@
 		<div class="row">
 			<div class="col-md-5">
 				<div class="c-left-area">
-					<div class="title-contact">
+					<!-- <div class="title-contact">
 						<h2>Our Address</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-					</div>
+					</div> -->
 					<div class="c-discript">
 						<div class="c-icon">
 							<img src="images/c-find.png" alt="">
 						</div>
 						<div class="c-d-area">
 							<h4>Find Us</h4>
-							<p>145, R/A street of Bacancy <br> New gurcy, USA</p>
+							<p>Sutton, Surrey, South London. UK</p>
 						</div>
 					</div>
 					<div class="c-discript">
@@ -26,7 +26,7 @@
 						</div>
 						<div class="c-d-area">
 							<h4>Phone</h4>
-							<p>+7850 0214 2140 <br> +8821 2593 1052</p>
+							<p>07969467544</p>
 						</div>
 					</div>
 					<div class="c-discript">
@@ -35,7 +35,7 @@
 						</div>
 						<div class="c-d-area">
 							<h4>Send Mail</h4>
-							<p>hotcox@gmail.com <br> hotcox121@yahoo.com</p>
+							<a href="mailto:info@emcloud.co">info@emcloud.co</a>
 						</div>
 					</div>
 				</div>
